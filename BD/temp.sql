@@ -1,15 +1,8 @@
-﻿/*==============================================================*/
+/*==============================================================*/
 /* Nom de SGBD :  PostgreSQL 9.x                                */
-/* Date de création :  2018-05-24 13:15:07                      */
+/* Date de cr�ation :  2018-05-25 14:18:48                      */
 /*==============================================================*/
 
-/*-----------------------------Creation Schémas-----------------------------*/
-drop SCHEMA ProjetS3 CASCADE ;
-
-CREATE SCHEMA ProjetS3 ;
-
-set SEARCH_PATH = ProjetS3;
-/*----------------------------------------------------------*
 
 drop index PEUT_AVOIR_FK;
 
@@ -72,7 +65,7 @@ drop table USAGERS;
 drop index VILLE_PK;
 
 drop table VILLE;
-*/
+
 /*==============================================================*/
 /* Table : AUTOMOBILES                                          */
 /*==============================================================*/
@@ -151,7 +144,7 @@ ID_PRIVILEGE
 /* Table : EVENEMENTS                                           */
 /*==============================================================*/
 create table EVENEMENTS (
-   ID_EVENEMENT         serial                 not null,
+   ID_EVENEMENT         INT4                 not null,
    LIBELLE_EVENEMENT    TEXT                 null,
    constraint PK_EVENEMENTS primary key (ID_EVENEMENT)
 );
@@ -168,7 +161,7 @@ ID_EVENEMENT
 /*==============================================================*/
 create table LOG (
    CIP                  VARCHAR(8)           not null,
-   ID_EVENEMENT         serial                 not null,
+   ID_EVENEMENT         INT4                 not null,
    DESCRIPTION          TEXT                 not null,
    constraint PK_LOG primary key (CIP, ID_EVENEMENT)
 );
@@ -205,9 +198,9 @@ create table OFFRES (
    ID_CAMPUS            INT4                 not null,
    ID_OFFRE             SERIAL               not null,
    LIBELLE_OFFRE        TEXT                 null,
-   DATEPRESENTEMENT     TIMESTAMP            default now(),
+   DATEPRESENTEMENT     TIMESTAMP            null,
    DATEOFFRE            TIMESTAMP            null,
-   NOMBRE_DE_PLACE      int4                 null,
+   NOMBRE_DE_PLACE      CHAR(10)             null,
    BAGAGE               CHAR(10)             null,
    constraint PK_OFFRES primary key (CIP, NOM_CAR, ID_VILLE, ID_CAMPUS, ID_OFFRE)
 );
