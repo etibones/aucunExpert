@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'war'
+archivesBaseName = 'gegi'
+version = '1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.mybatis:mybatis:3.2.8'
+    compile group: 'postgresql', name: 'postgresql', version: '9.0-801.jdbc4'
+    compile group: 'org.mybatis', name: 'mybatis-guice', version: '3.10'
+    compile group: 'com.google.inject', name: 'guice', version: '4.2.0'
+    providedCompile group: 'javax',name: 'javaee-api',version: '8.0'
+} 
