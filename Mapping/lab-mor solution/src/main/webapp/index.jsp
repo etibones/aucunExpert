@@ -1,18 +1,11 @@
-<%@ page import="ca.uSherbrooke.gegi.VueOffre" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Nadir
-  Date: 2018-05-27
-  Time: 19:04
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-    <head>
-        <title>Home</title>
-    </head>
-    <body>
-        <%=VueOffre.Vue()%><br>
-        <br><a href="vue2.html" >Clique ici pour la voir les offres</a>
-    </body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+    <title>Vue Offre</title>
+</head>
+<body>
+<jsp:forward page="/Hello?action=afficherOffres" />
+</body>
 </html>

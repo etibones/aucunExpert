@@ -20,6 +20,41 @@ public class Offre {
     public String getAutonom(){return autonom;}
     public Integer getAutoannee(){return autoannee;}
 
+	public void setAutoannee(Integer autoannee) {
+		this.autoannee = autoannee;
+	}
+
+	public void setAutonom(String autonom) {
+		this.autonom = autonom;
+	}
+
+	public void setBagage(String bagage) {
+		this.bagage = bagage;
+	}
+
+	public void setDateoffre(String dateoffre) {
+		this.dateoffre = dateoffre;
+	}
+
+	public void setLibelle(String libelle) {
+		this.libelle = libelle;
+	}
+
+	public void setNbplace(Integer nbplace) {
+		this.nbplace = nbplace;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+	public void setVille(String ville) {
+		this.ville = ville;
+	}
 
 	@Override
 	public String toString() {

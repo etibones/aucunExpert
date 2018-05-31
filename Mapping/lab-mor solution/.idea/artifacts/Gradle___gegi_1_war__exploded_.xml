@@ -14,7 +14,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="lab-mor_solution_main" />
-          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.mybatis:mybatis:3.2.8" />
