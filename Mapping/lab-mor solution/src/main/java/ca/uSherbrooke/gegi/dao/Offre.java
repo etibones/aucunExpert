@@ -1,6 +1,9 @@
 package ca.uSherbrooke.gegi.dao;
+
+import java.util.List;
+
 public class Offre {
-	private String nom;
+	private static String nom;
 	private String prenom;
 	private String ville;
 	private String libelle;
@@ -10,7 +13,7 @@ public class Offre {
 	private String autonom;
 	private Integer autoannee;
 
-	public String getNom(){return nom;}
+	public static String getNom(){return nom;}
     public String getPrenom(){return prenom;}
     public String getVille(){return ville;}
     public String getLibelle(){return libelle;}
@@ -58,7 +61,10 @@ public class Offre {
 
 	@Override
 	public String toString() {
-		return "Offre{" +
+
+		return (nom+","+prenom+","+ville+","+libelle+","+dateoffre+","+nbplace+","+bagage+","+autonom+","+autoannee);
+
+		/*return "Offre{" +
 				"prenom=" + prenom+
 				", nom='" + nom + '\'' +
 				", ville='" + ville + '\'' +
@@ -68,7 +74,7 @@ public class Offre {
 				", bagage='" + bagage + '\'' +
 				", autonom='" + autonom + '\'' +
 				", autoannee='" + autoannee + '\'' +
-				'}';
+				'}';*/
 	}
 }
 

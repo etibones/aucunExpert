@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Gradle : gegi-1.war (exploded)">
-    <output-path>$PROJECT_DIR$/build/libs/exploded/gegi-1.war</output-path>
+    <output-path />
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$">
         <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
@@ -14,7 +14,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="lab-mor_solution_main" />
-          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.mybatis:mybatis:3.2.8" />
@@ -29,6 +29,12 @@
           <element id="library" level="project" name="Gradle: com.google.errorprone:error_prone_annotations:2.1.3" />
           <element id="library" level="project" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" />
           <element id="library" level="project" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jasig.cas.client/cas-client-core/3.5.0/c3e4786985aa2cd12093ba2cf80cd2b03c41c560/cas-client-core-3.5.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.25/8dacf9514f0c707cbbcdd6fd699e8940d42fb54e/slf4j-simple-1.7.25.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.8.1/fb1930cd0b1b36924717229f56ca80d785401ff8/jackson-databind-2.8.8.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.8/d478fb6de45a7c3d2cad07c8ad70c7f0a797a020/jackson-core-2.8.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" />
         </element>
       </element>
     </root>

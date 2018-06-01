@@ -8,7 +8,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>s3info08</user-name>
-      <introspection-schemas>s3info08:app</introspection-schemas>
+      <introspection-schemas>s3info08:projets3</introspection-schemas>
     </data-source>
   </component>
 </project>
