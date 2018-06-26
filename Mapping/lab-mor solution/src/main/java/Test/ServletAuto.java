@@ -17,7 +17,7 @@ public class ServletAuto extends HttpServlet {
         System.err.println("Servlet initialized!");
     }
 
-    private Auto offre = new Auto();
+    private Auto auto = new Auto();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

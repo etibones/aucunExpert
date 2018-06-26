@@ -62,7 +62,7 @@ public class Offre {
 	@Override
 	public String toString() {
 
-		return (nom+","+prenom+","+ville+","+libelle+","+dateoffre+","+nbplace+","+bagage+","+autonom+","+autoannee);
+		return (nom + "," + prenom + "," + ville + "," + libelle + "," + dateoffre + "," + nbplace + "," + bagage + "," + autonom + "," + autoannee);
 
 		/*return "Offre{" +
 				"prenom=" + prenom+
