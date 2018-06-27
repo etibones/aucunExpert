@@ -1,21 +1,22 @@
-package ca.uSherbrooke.gegi.dao;
-
-import ca.uSherbrooke.gegi.VueOffre;
+package ca.uSherbrooke.gegi.dao.offres;
 
 
-public class Caracteristiques {
+public class CaracteristiquesOffres {
 
     private static String[] temp = VueOffre.Vue().toString().split(",");
 
     public static String getNom(){
+        //System.out.println(temp[0]);
         return temp[0];
     }
 
     public static String getPrenom(){
+        //System.out.println(temp[1]);
         return temp[1];
     }
 
     public static String getVille(){
+        //System.out.println(temp[2]);
         return temp[2];
     }
 
@@ -38,6 +39,5 @@ public class Caracteristiques {
     public static String getAutoAnnee(){
         return temp[8];
     }
-
 
 }

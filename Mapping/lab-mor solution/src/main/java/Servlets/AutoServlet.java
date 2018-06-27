@@ -1,6 +1,6 @@
-package Test;
+package Servlets;
 
-import ca.uSherbrooke.gegi.dao.Offre;
+import ca.uSherbrooke.gegi.dao.offres.Offre;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -10,14 +10,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/offre", loadOnStartup = 1)
-public class ServletOffre extends HttpServlet {
+@WebServlet(urlPatterns = "/auto", loadOnStartup = 1)
+public class AutoServlet extends HttpServlet {
 
-    public ServletOffre() {
+    public AutoServlet() {
         System.err.println("Servlet initialized!");
     }
 
     private Offre offre = new Offre();
+    private String nom = "initiale vide";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -26,7 +27,9 @@ public class ServletOffre extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.getWriter().println("Bienvenu" + request.getUserPrincipal().toString());
-        RequestDispatcher view = request.getRequestDispatcher("/afficherOffres.jsp");
+        RequestDispatcher view = request.getRequestDispatcher("Afficher/afficherAuto.jsp");
         view.forward(request, response);
+
+        nom = request.getParameter("nom");
     }
 }
