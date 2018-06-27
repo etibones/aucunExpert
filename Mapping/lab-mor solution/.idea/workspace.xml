@@ -28,7 +28,38 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="projets3: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="ErrorTreeViewConfiguration">
@@ -43,96 +74,27 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServletOffre.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Test/ServletOffre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="afficherOffres.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/afficherOffres.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Module.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/Module.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-              <folding>
-                <element signature="n#filter#0;n#web-app#0;n#!!top" />
-                <element signature="n#filter-mapping#0;n#web-app#0;n#!!top" />
-                <element signature="n#filter#1;n#web-app#0;n#!!top" />
-                <element signature="n#filter-mapping#1;n#web-app#0;n#!!top" />
-                <element signature="n#filter#2;n#web-app#0;n#!!top" />
-                <element signature="n#filter-mapping#2;n#web-app#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradlew" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -563,50 +525,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../lab-sql.txt" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2d88d59d-6d52-4718-8cd3-a55396e188a7/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/etudiant_app.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/concretepage/dto/Etudiant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/concretepage/RunMybatis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/concretepage/dao/EtudiantMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/concretepage/dao/EtudiantMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/server/guice/GuiceModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/server/guice/Module.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/concretepage/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/sql/etudiant_app.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/EtudiantMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/EtudiantMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Etudiant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VueOffre.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/testVue.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/testVue.jsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/dbUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Offre.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Servlet1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/DbUtil.java" />
-        <option value="$PROJECT_DIR$/src/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/Test/servletOffre.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/Test/Servlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/afficherOffres.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/ListeOffre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/VueOffre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Caracteristiques.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/vue2.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/afficherOffres.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Inserer offre/AjoutOffre.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Test/ServletOffre.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapperInsert.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/MyBatisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/ajouterOffre.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/afficherOffres.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/VueOffre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/CaracteristiquesOffres.java" />
+        <option value="/9184e97d/956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/view/v_auto.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/VueAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Autocarac.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainServlet/MainServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/afficherAuto.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Auto/Autocarac.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/VueAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Auto/AutoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/AutoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/VueAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/InsererOffre/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/ajoutOffre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/ajoutOffre.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/InsererOffre/validationAjoutOffre.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/MainServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/AutoServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/OffreServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/InsererOffre/ajoutOffre.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Inserer/InsererOffre/ajoutOffre.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/AutoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/AutoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Afficher/afficherAuto.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/ajoutAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/Autocarac.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/Auto.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Inserer/InsererAuto/ajoutAuto.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Inserer/InsererOffre/validationAjoutOffre.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/ajoutOffre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/ajoutAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Inserer/InsererAuto/validationAjoutAuto.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Bienvenu.jsp" />
       </list>
     </option>
   </component>
@@ -623,11 +592,17 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="676" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -636,7 +611,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -644,68 +618,13 @@
               <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gegi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -713,31 +632,42 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PostgreSQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="XML" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/New folder (2)/VueAuto.java" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="gradle.experimental" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\raye2601\Documents\aucun\aucunExpert\Mapping\lab-mor solution\src\main\java\Test" />
-      <recent name="C:\Users\raye2601\Documents\aucun\aucunExpert\Mapping\lab-mor solution\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\lab-mor solution\src\main\webapp" />
-      <recent name="$PROJECT_DIR$/src/sql" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ca.uSherbrooke.gegi.dao" />
       <recent name="ca.uSherbrooke.gegi" />
+      <recent name="" />
       <recent name="ca.uSherbrooke.gegi.concretepage" />
       <recent name="ca.uSherbrooke" />
-      <recent name="com.concretepage.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\Git-Nadir\aucunExpert\Mapping\lab-mor solution\src\main\webapp\Inserer\InsererAuto" />
+      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\Git-Nadir\aucunExpert\Mapping\lab-mor solution\src\main\resources\ca\uSherbrooke\gegi\dao" />
+      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\Git-Nadir\aucunExpert\Mapping\lab-mor solution\src\main\java\ca\uSherbrooke\gegi\server\guice" />
+      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\Git-Nadir\aucunExpert\Mapping\lab-mor solution\src\main\java\Test" />
+      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\Git-Nadir\aucunExpert\Mapping\lab-mor solution\src\main\java\ca\uSherbrooke\gegi\dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.uSherbrooke.gegi.dao" />
+      <recent name="Test" />
+      <recent name="MainServlet" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\Git-Nadir\aucunExpert\Mapping\lab-mor solution\src\main\webapp\Inserer" />
+      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\Git-Nadir\aucunExpert\Mapping\lab-mor solution\src\main\webapp\Afficher" />
+      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\Git-Nadir\aucunExpert\Mapping\lab-mor solution\src\main\webapp" />
+      <recent name="C:\Users\raye2601\Documents\aucun\aucunExpert\Mapping\lab-mor solution\src\main\java\Test" />
       <recent name="C:\Users\raye2601\Documents\aucun\aucunExpert\Mapping\lab-mor solution\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\Nadir\Documents\Nadir\Cours\Bac Genie info\S3\Projet\lab-mor solution\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1148,12 +1078,17 @@
       <workItem from="1527798117635" duration="7222000" />
       <workItem from="1527808167835" duration="7305000" />
       <workItem from="1527821873587" duration="1353000" />
-      <workItem from="1528400662512" duration="523000" />
+      <workItem from="1528400662512" duration="2141000" />
+      <workItem from="1528421058075" duration="91000" />
+      <workItem from="1528987916391" duration="18138000" />
+      <workItem from="1529958160290" duration="1683000" />
+      <workItem from="1529960992314" duration="11691000" />
+      <workItem from="1529973386744" duration="37111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45899000" />
+    <option name="totallyTimeSpent" value="116231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1165,86 +1100,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32838285" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="right" id="CDI" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32838285" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="13" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32838285" />
+      <window_info anchor="right" id="CDI" order="9" weight="0.32980332" />
+      <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.3290469" />
-      <window_info anchor="right" id="JSF" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.19969743" />
+      <window_info id="Structure" order="1" sideWeight="0.4497992" side_tool="true" weight="0.19742814" />
+      <window_info anchor="right" id="JSF" order="4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32838285" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4389439" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61764705" visible="true" weight="0.15204236" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" sideWeight="0.38235295" side_tool="true" weight="0.15204236" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Properties" order="3" />
-      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32838285" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32838285" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32343236" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32838285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58780485" visible="true" weight="0.20877458" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.32980332" />
+      <window_info id="Web" order="7" sideWeight="0.41219512" side_tool="true" weight="0.20877458" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32673267" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" id="Properties" order="11" />
+      <window_info id="Nl-Palette" order="6" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32673267" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.32838285" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32946146" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="12" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Properties" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="JSF" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="13" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info id="Nl-Palette" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="Gradle" order="9" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49448818" visible="true" weight="0.14947917" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info id="Web" order="5" sideWeight="0.5055118" side_tool="true" weight="0.118229166" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Structure" order="8" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="CDI" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.32946146" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1257,76 +1154,40 @@
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+    <entry file="dbSrc:///9184e97d/956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/view/v_auto.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/table/reserver">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/table/privileges">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        <state>
+          <caret selection-end-line="9" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../lab-sql.txt" />
-    <entry file="file://$PROJECT_DIR$/../lab-sql.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2d88d59d-6d52-4718-8cd3-a55396e188a7/console.sql" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.2.8/287bc9f8485a85211d7a900fe43c74264ee0561b/mybatis-3.2.8-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="188" selection-start-line="188" selection-end-line="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/resources/etudiant_app.sql" />
-    <entry file="file://$PROJECT_DIR$/out/production/resources/ca/uSherbrooke/gegi/dao/EtudiantMapper.xml" />
-    <entry file="das://2d88d59d-6d52-4718-8cd3-a55396e188a7/database/labsql/schema/pleindefoin/table/article" />
-    <entry file="das://2d88d59d-6d52-4718-8cd3-a55396e188a7/database/labsql/schema/pleindefoin/table/commande" />
-    <entry file="das://2d88d59d-6d52-4718-8cd3-a55396e188a7/database/labsql/schema/app/table/app" />
-    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/app/table/etudiant_app" />
-    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/app/table/cheminement" />
-    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/app/table/app" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.2.8/287bc9f8485a85211d7a900fe43c74264ee0561b/mybatis-3.2.8-sources.jar!/org/apache/ibatis/exceptions/ExceptionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/testVue.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/testVue.jsp" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/web.xml" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/MyBatisModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Servlet1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Offre.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/sql/etudiant_app.sql" />
-    <entry file="file://$PROJECT_DIR$/src/db.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/DbUtil.java" />
     <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/view/v_offres">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1334,110 +1195,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/afficherOffres.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="3" selection-start-line="3" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/Servlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/afficherOffres.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/ListeOffre.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/MyBatisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/VueOffre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="64" column="115" selection-start-line="64" selection-start-column="115" selection-end-line="64" selection-end-column="115" />
-          <folding>
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/Caracteristiques.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/vue2.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/Module.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/table/evenements">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/table/log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/table/offres">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/table/ville">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/New folder (2)/Autocarac.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/New folder (2)/AutoMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/New folder (2)/VueAuto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/New folder (2)/ServletAuto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/New folder (2)/Auto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/New folder (2)/afficherAuto.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/ServletAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1446,46 +1258,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainServlet/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/MyBatisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/afficherOffres.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/VueOffre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/MyBatisModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/server/guice/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/ServletOffre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/AutoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/OffreServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" column="90" selection-start-line="29" selection-start-column="90" selection-end-line="29" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Inserer/InsererOffre/ajoutOffre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="7" lean-forward="true" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="101" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/AutoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/AutoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/table/usagers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherAuto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/Offre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/CaracteristiquesOffres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="43" column="107" lean-forward="true" selection-start-line="43" selection-start-column="107" selection-end-line="44" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Inserer/InsererOffre/validationAjoutOffre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="45" column="104" selection-start-line="45" selection-start-column="104" selection-end-line="45" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/ajoutOffre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/Auto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+          <folding>
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/Autocarac.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/VueAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/ajoutAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Inserer/InsererAuto/validationAjoutAuto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Inserer/InsererAuto/ajoutAuto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://956eb7f5-e5f7-4d6f-aa26-0737a159caa3/database/s3info08/schema/projets3/table/automobiles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/956eb7f5-e5f7-4d6f-aa26-0737a159caa3/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Bienvenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-          <folding>
-            <element signature="n#filter#0;n#web-app#0;n#!!top" />
-            <element signature="n#filter-mapping#0;n#web-app#0;n#!!top" />
-            <element signature="n#filter#1;n#web-app#0;n#!!top" />
-            <element signature="n#filter-mapping#1;n#web-app#0;n#!!top" />
-            <element signature="n#filter#2;n#web-app#0;n#!!top" />
-            <element signature="n#filter-mapping#2;n#web-app#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test/ServletOffre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1543,11 +1553,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lab-mor_solution</last-edited>
+          <last-edited>lab-mor_solution_test|lab-mor_solution</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
