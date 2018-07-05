@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
-<body><!--Je vais essayer ici d'ajouter un usager d'abord parceque c'est plus facile-->
+<body>
 <form method="post" action="process.jsp">
     Nom:<br>
     <input type="text" name="nom">
@@ -19,10 +19,10 @@
     Cip<br>
     <input type="text" name="cip">
     <br>
-    Ville:<br>
+    Ville de Destination:<br>
     <input type="number" name="ville">
     <br>
-    Campus:<br>
+    Départ (Campus):<br>
     <input type="number" name="campus">
     <br>
     Description:<br>
@@ -34,14 +34,11 @@
     Nombre de Places:<br>
     <input type="number" name="nbPlace">
     <br>
-    Type bagage:<br>
+    Description bagage:<br>
     <input type="text" name="bagage">
     <br>
     Nom voiture<br>
     <input type="text" name="autoNom">
-    <br>
-    Annee voiture<br>
-    <input type="number" name="autoAnnee">
     <br><br>
     <input type="submit" formaction="validationAjoutOffre.jsp" value="Valider">
     <input type = "button" value="Retourner au Menu principale" onclick="window.location.href='/Bienvenu.jsp'">

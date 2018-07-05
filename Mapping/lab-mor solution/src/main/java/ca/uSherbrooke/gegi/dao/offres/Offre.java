@@ -11,6 +11,7 @@ public class Offre {
 	private static String autonom;
 	private static Integer autoannee;
 	private static String cip;
+	private static Integer campus;
 
 	public static String getCip() { return cip;}
 	public static String getNom() { return nom;}
@@ -22,6 +23,7 @@ public class Offre {
     public static String getBagage() { return bagage;}
     public static String getAutonom() { return autonom;}
     public static Integer getAutoannee() { return autoannee;}
+	public static Integer getCampus() { return campus;}
 
 	public void setAutoAnnee(Integer autoannee) {
 		this.autoannee = autoannee;
@@ -61,6 +63,10 @@ public class Offre {
 
 	public void setCip (String cip){
 		this.cip = cip;
+	}
+
+	public void setCampus(int campus){
+		this.campus = campus;
 	}
 
 	@Override

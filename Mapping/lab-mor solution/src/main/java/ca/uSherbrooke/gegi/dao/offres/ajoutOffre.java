@@ -19,7 +19,7 @@ public class ajoutOffre {
         OffreMapper offreMapper = injector.getInstance(OffreMapper.class);
         System.out.println(offre +","+ tsmp);
 
-        offreMapper.insertOffre(offre.getCip(),5,offre.getLibelle(),tsmp,
+        offreMapper.insertOffre(offre.getCip(),Integer.valueOf(offre.getVille()),offre.getLibelle(),tsmp,
                                4,offre.getBagage(),offre.getAutonom(),1,
                                 1,tsmp);
     }

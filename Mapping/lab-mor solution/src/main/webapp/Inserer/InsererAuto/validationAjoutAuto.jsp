@@ -30,7 +30,7 @@
     ajoutAuto.ajout(ajouterAuto);
 
 %>
-    <H1>Offre Enregistre!!</H1>
+    <H1>Auto Enregistre!!</H1>
 <input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu.jsp'">
 </body>
 </html>

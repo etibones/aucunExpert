@@ -21,5 +21,9 @@
         <form action="/auto">
             <input type="submit" value="Mes autos">
         </form>
+
+        <form action="/administrateurs">
+            <input type="submit" value="Administrateurs">
+        </form>
     </body>
 </html>

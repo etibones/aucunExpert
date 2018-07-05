@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
-<body><!--Je vais essayer ici d'ajouter un usager d'abord parceque c'est plus facile-->
+<body>
 <form method="post" action="process.jsp">
 
     Cip<br>

@@ -5,7 +5,7 @@
 <mapper namespace="ca.uSherbrooke.gegi.dao.OffreMapper" >
 
 	
-	<select id="selectOffre" resultType="Offre">
+	<select id="selectOffre" resultType="ca.uSherbrooke.gegi.dao.offres.Offre">
 	    SELECT nom, prenom, ville,libelle, dateoffre, nbplace, bagage, autonom, autoannee
 	    from projets3.v_offres;
 	</select>
