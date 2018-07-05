@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="s3info08@zeus.gel.usherbrooke.ca">
-  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.8">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.1">
     <root id="1"/>
     <database id="2" parent="1" name="s3info08">
       <ObjectId>16407</ObjectId>
@@ -143,22 +143,22 @@
     </routine>
     <column id="34" parent="13" name="cip">
       <Position>1</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <StateNumber>28766</StateNumber>
     </column>
     <column id="35" parent="13" name="nom_car">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28766</StateNumber>
     </column>
     <column id="36" parent="13" name="annee_car">
       <Position>3</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <StateNumber>28766</StateNumber>
     </column>
     <column id="37" parent="13" name="marque">
       <Position>4</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28766</StateNumber>
     </column>
     <rule id="38" parent="13" name="auto">
@@ -170,24 +170,24 @@
     </rule>
     <column id="39" parent="20" name="cip">
       <Position>1</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="40" parent="20" name="nom_car">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="41" parent="20" name="annee_car">
       <Position>3</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="42" parent="20" name="marque">
       <Position>4</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <index id="43" parent="20" name="automobile_pk">
@@ -224,15 +224,15 @@ nom_car</ColNames>
     </foreign-key>
     <column id="48" parent="21" name="id_campus">
       <Position>1</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
-      <DefaultExpression>nextval(&apos;campus_id_campus_seq&apos;::regclass)</DefaultExpression>
       <SequenceName>projets3.campus_id_campus_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;campus_id_campus_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="49" parent="21" name="nom_campus">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <index id="50" parent="21" name="campus_pk">
@@ -253,19 +253,19 @@ nom_car</ColNames>
     </key>
     <column id="53" parent="22" name="cip">
       <Position>1</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="54" parent="22" name="id_privilege">
       <Position>2</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="55" parent="22" name="statut">
       <Position>3</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <index id="56" parent="22" name="droits_pk">
@@ -315,15 +315,15 @@ id_privilege</ColNames>
     </foreign-key>
     <column id="63" parent="23" name="id_evenement">
       <Position>1</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
-      <DefaultExpression>nextval(&apos;evenements_id_evenement_seq&apos;::regclass)</DefaultExpression>
       <SequenceName>projets3.evenements_id_evenement_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;evenements_id_evenement_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="64" parent="23" name="libelle_evenement">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <index id="65" parent="23" name="evenements_pk">
@@ -344,21 +344,21 @@ id_privilege</ColNames>
     </key>
     <column id="68" parent="24" name="cip">
       <Position>1</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="69" parent="24" name="id_evenement">
       <Position>2</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
-      <DefaultExpression>nextval(&apos;log_id_evenement_seq&apos;::regclass)</DefaultExpression>
       <SequenceName>projets3.log_id_evenement_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;log_id_evenement_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="70" parent="24" name="description">
       <Position>3</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
@@ -409,60 +409,60 @@ id_evenement</ColNames>
     </foreign-key>
     <column id="78" parent="25" name="cip">
       <Position>1</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="79" parent="25" name="nom_car">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="80" parent="25" name="id_ville">
       <Position>3</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="81" parent="25" name="id_campus">
       <Position>4</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="82" parent="25" name="id_offre">
       <Position>5</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
-      <DefaultExpression>nextval(&apos;offres_id_offre_seq&apos;::regclass)</DefaultExpression>
       <SequenceName>projets3.offres_id_offre_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;offres_id_offre_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="83" parent="25" name="libelle_offre">
       <Position>6</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="84" parent="25" name="datepresentement">
       <Position>7</Position>
-      <DataType>timestamp|0s</DataType>
+      <DataType>timestamp|0</DataType>
       <StateNumber>28683</StateNumber>
       <DefaultExpression>now()</DefaultExpression>
     </column>
     <column id="85" parent="25" name="dateoffre">
       <Position>8</Position>
-      <DataType>timestamp|0s</DataType>
+      <DataType>timestamp|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="86" parent="25" name="nombre_de_place">
       <Position>9</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="87" parent="25" name="bagage">
       <Position>10</Position>
-      <DataType>char(10)|0s</DataType>
+      <DataType>char(10)|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <index id="88" parent="25" name="offres_pk">
@@ -545,15 +545,15 @@ nom_car</RefColNames>
     </trigger>
     <column id="98" parent="26" name="id_privilege">
       <Position>1</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
-      <DefaultExpression>nextval(&apos;privileges_id_privilege_seq&apos;::regclass)</DefaultExpression>
       <SequenceName>projets3.privileges_id_privilege_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;privileges_id_privilege_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="99" parent="26" name="libelle_privilege">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <index id="100" parent="26" name="pk_privileges">
@@ -574,61 +574,61 @@ nom_car</RefColNames>
     </key>
     <column id="103" parent="27" name="cip">
       <Position>1</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="104" parent="27" name="off_cip">
       <Position>2</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="105" parent="27" name="off_nom_car">
       <Position>3</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="106" parent="27" name="id_ville">
       <Position>4</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="107" parent="27" name="id_campus">
       <Position>5</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="108" parent="27" name="id_offre">
       <Position>6</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="109" parent="27" name="aut_cip">
       <Position>7</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="110" parent="27" name="nom_car">
       <Position>8</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="111" parent="27" name="date_reservation">
       <Position>9</Position>
-      <DataType>date|0s</DataType>
+      <DataType>date|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="112" parent="27" name="confirmation">
       <Position>10</Position>
-      <DataType>boolean|0s</DataType>
+      <DataType>boolean|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
@@ -725,18 +725,18 @@ nom_car</RefColNames>
     </foreign-key>
     <column id="122" parent="28" name="cip">
       <Position>1</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="123" parent="28" name="nom_usager">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <column id="124" parent="28" name="prenom_usager">
       <Position>3</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <index id="125" parent="28" name="pk_usagers">
@@ -757,15 +757,15 @@ nom_car</RefColNames>
     </key>
     <column id="128" parent="29" name="id_ville">
       <Position>1</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>28683</StateNumber>
-      <DefaultExpression>nextval(&apos;ville_id_ville_seq&apos;::regclass)</DefaultExpression>
       <SequenceName>projets3.ville_id_ville_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;ville_id_ville_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="129" parent="29" name="libelle_ville">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28683</StateNumber>
     </column>
     <index id="130" parent="29" name="pk_ville">
@@ -786,22 +786,22 @@ nom_car</RefColNames>
     </key>
     <column id="133" parent="30" name="cip">
       <Position>1</Position>
-      <DataType>varchar(8)|0s</DataType>
+      <DataType>varchar(8)|0</DataType>
       <StateNumber>28781</StateNumber>
     </column>
     <column id="134" parent="30" name="nom_car">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28781</StateNumber>
     </column>
     <column id="135" parent="30" name="annee_car">
       <Position>3</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <StateNumber>28781</StateNumber>
     </column>
     <column id="136" parent="30" name="marque">
       <Position>4</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28781</StateNumber>
     </column>
     <rule id="137" parent="30" name="vue">
@@ -813,56 +813,56 @@ nom_car</RefColNames>
     </rule>
     <column id="138" parent="31" name="nom">
       <Position>1</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <column id="139" parent="31" name="prenom">
       <Position>2</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <column id="140" parent="31" name="ville">
       <Position>3</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <column id="141" parent="31" name="libelle">
       <Position>4</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <column id="142" parent="31" name="dateoffre">
       <Position>5</Position>
-      <DataType>timestamp|0s</DataType>
+      <DataType>timestamp|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <column id="143" parent="31" name="nbplace">
       <Position>6</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <column id="144" parent="31" name="bagage">
       <Position>7</Position>
-      <DataType>bpchar|0s</DataType>
+      <DataType>bpchar|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <column id="145" parent="31" name="autonom">
       <Position>8</Position>
-      <DataType>text|0s</DataType>
+      <DataType>text|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <column id="146" parent="31" name="autoannee">
       <Position>9</Position>
-      <DataType>integer|0s</DataType>
+      <DataType>integer|0</DataType>
       <StateNumber>28725</StateNumber>
     </column>
     <argument id="147" parent="32">
       <ArgumentDirection>T</ArgumentDirection>
-      <DataType>table(nom text, prenom text, ville text, libelle text, dateoffre timestamp, nbplace integer, bagage char, autonom text, autoannee integer)|0v</DataType>
+      <DataType>table(nom text, prenom text, ville text, libelle text, dateoffre timestamp, nbplace integer, bagage char, autonom text, autoannee integer)|0</DataType>
     </argument>
     <argument id="148" parent="33">
       <ArgumentDirection>R</ArgumentDirection>
-      <DataType>trigger|0s</DataType>
+      <DataType>trigger|0</DataType>
     </argument>
   </database-model>
 </dataSource>
