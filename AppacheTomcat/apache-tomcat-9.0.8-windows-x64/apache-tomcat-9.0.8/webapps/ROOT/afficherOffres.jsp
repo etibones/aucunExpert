@@ -1,14 +1,6 @@
-<%@ page import="ca.uSherbrooke.gegi.dao.Offre" %>
-<%@ page import="Test.ServletOffre" %>
-<%@ page import="ca.uSherbrooke.gegi.VueOffre" %>
-<%@ page import="ca.uSherbrooke.gegi.dao.Caracteristiques" %><%--
-  Created by IntelliJ IDEA.
-  User: Nadir
-  Date: 2018-05-31
-  Time: 21:03
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
@@ -27,21 +19,25 @@
         <th>Bagages</th>
         <th>Modele auto</th>
         <th>Annee de l'auto</th>
+        <th colspan=2>Action</th>
     </tr>
     </thead>
     <tbody>
+    <c:forEach items="${offres}" var="offre">
         <tr>
-            <td><%=Caracteristiques.getNom()%></td>
-            <td><%=Caracteristiques.getPrenom()%></td>
-            <td><%=Caracteristiques.getVille()%></td>
-            <td><%=Caracteristiques.getLibelle()%></td>
-            <td><%=Caracteristiques.getDateOffre()%></td>
-            <td><%=Caracteristiques.getNbPlace()%></td>
-            <td><%=Caracteristiques.getBagage()%></td>
-            <td><%=Caracteristiques.getAutoNom()%></td>
-            <td><%=Caracteristiques.getAutoAnnee()%></td>
+            <td><c:out value="${offre.nom}" /></td>
+            <td><c:out value="${offre.prenom}" /></td>
+            <td><c:out value="${offre.ville}" /></td>
+            <td><c:out value="${offre.libelle}" /></td>
+            <td><c:out value="${offre.dateoffre}" /></td>
+            <td><c:out value="${offre.nbplace}" /></td>
+            <td><c:out value="${offre.bagage}" /></td>
+            <td><c:out value="${offre.autonom}" /></td>
+            <td><c:out value="${offre.autoannee}" /></td>
         </tr>
+    </c:forEach>
     </tbody>
 </table>
+<p><a href="Servlet?action=Afficher">Afficher Offres</a></p>
 </body>
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/offres/Offre.java
 package ca.uSherbrooke.gegi.dao.offres;
 
 public class Offre {
@@ -26,6 +27,31 @@ public class Offre {
 	public static Integer getCampus() { return campus;}
 
 	public void setAutoAnnee(Integer autoannee) {
+=======
+package ca.uSherbrooke.gegi.dao;
+public class Offre {
+	private String nom;
+	private String prenom;
+	private String ville;
+	private String libelle;
+	private String dateoffre;
+	private Integer nbplace;
+	private String bagage;
+	private String autonom;
+	private Integer autoannee;
+
+	public String getNom(){return nom;}
+    public String getPrenom(){return prenom;}
+    public String getVille(){return ville;}
+    public String getLibelle(){return libelle;}
+    public String getDateoffre(){return dateoffre;}
+    public Integer getNbplace(){return nbplace;}
+    public String getBagage(){return bagage;}
+    public String getAutonom(){return autonom;}
+    public Integer getAutoannee(){return autoannee;}
+
+	public void setAutoannee(Integer autoannee) {
+>>>>>>> parent of d5fe2b9... (Mapping + Cas+ Servlet) fonctionnel:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java
 		this.autoannee = autoannee;
 	}
 
@@ -71,11 +97,15 @@ public class Offre {
 
 	@Override
 	public String toString() {
+<<<<<<< HEAD:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/offres/Offre.java
 
 <<<<<<< HEAD:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java
 		return (nom + "," + prenom + "," + ville + "," + libelle + "," + dateoffre + "," + nbplace + "," + bagage + "," + autonom + "," + autoannee);
 
 		/*return "Offre{" +
+=======
+		return "Offre{" +
+>>>>>>> parent of d5fe2b9... (Mapping + Cas+ Servlet) fonctionnel:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java
 				"prenom=" + prenom+
 				", nom='" + nom + '\'' +
 				", ville='" + ville + '\'' +
@@ -85,10 +115,14 @@ public class Offre {
 				", bagage='" + bagage + '\'' +
 				", autonom='" + autonom + '\'' +
 				", autoannee='" + autoannee + '\'' +
+<<<<<<< HEAD:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/offres/Offre.java
 				'}';*/
 =======
 		return (nom+","+prenom+","+ville+","+libelle+","+dateoffre+","+nbplace+","+bagage+","+autonom+","+autoannee);
 >>>>>>> Nadir:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/offres/Offre.java
+=======
+				'}';
+>>>>>>> parent of d5fe2b9... (Mapping + Cas+ Servlet) fonctionnel:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java
 	}
 }
 

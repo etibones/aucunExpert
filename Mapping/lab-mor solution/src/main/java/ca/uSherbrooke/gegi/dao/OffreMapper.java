@@ -1,5 +1,6 @@
 package ca.uSherbrooke.gegi.dao;
 
+import java.util.List;
 
 import ca.uSherbrooke.gegi.dao.offres.Offre;
 import org.apache.ibatis.annotations.Param;
@@ -8,8 +9,12 @@ import java.sql.Timestamp;
 
 public interface OffreMapper {
 
+<<<<<<< HEAD
     Offre selectOffre();
     //void insertOffre(@Param("id_ville") int id_ville,@Param("libelle_ville") String libelle_ville);
+=======
+    List<Offre> selectOffre();
+>>>>>>> parent of d5fe2b9... (Mapping + Cas+ Servlet) fonctionnel
 
     void insertOffre(@Param("cip") String cip,@Param("id_ville") Integer id_ville,
                      @Param("libelle_offre") String libelle_offre,
