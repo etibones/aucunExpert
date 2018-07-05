@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="s3info08@zeus.gel.usherbrooke.ca" uuid="956eb7f5-e5f7-4d6f-aa26-0737a159caa3">
+      <database-info product="PostgreSQL" version="9.6.9" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>s3info08</user-name>
+      <introspection-schemas>s3info08:projets3</introspection-schemas>
+    </data-source>
+    <data-source name="s3info04@zeus.gel.usherbrooke.ca" uuid="1a3bf395-c622-44b0-8a20-2095e2748ba5">
+      <database-info product="PostgreSQL" version="9.6.9" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>s3info04</user-name>
+      <introspection-schemas>s3info04:projets3</introspection-schemas>
+    </data-source>
+  </component>
+</project>
