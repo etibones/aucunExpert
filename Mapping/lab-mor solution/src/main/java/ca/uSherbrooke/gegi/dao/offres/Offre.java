@@ -72,7 +72,23 @@ public class Offre {
 	@Override
 	public String toString() {
 
+<<<<<<< HEAD:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/Offre.java
+		return (nom + "," + prenom + "," + ville + "," + libelle + "," + dateoffre + "," + nbplace + "," + bagage + "," + autonom + "," + autoannee);
+
+		/*return "Offre{" +
+				"prenom=" + prenom+
+				", nom='" + nom + '\'' +
+				", ville='" + ville + '\'' +
+				", libelle='" + libelle + '\'' +
+				", dateoffre='" + dateoffre + '\'' +
+				", nbplace='" + nbplace + '\'' +
+				", bagage='" + bagage + '\'' +
+				", autonom='" + autonom + '\'' +
+				", autoannee='" + autoannee + '\'' +
+				'}';*/
+=======
 		return (nom+","+prenom+","+ville+","+libelle+","+dateoffre+","+nbplace+","+bagage+","+autonom+","+autoannee);
+>>>>>>> Nadir:Mapping/lab-mor solution/src/main/java/ca/uSherbrooke/gegi/dao/offres/Offre.java
 	}
 }
 
