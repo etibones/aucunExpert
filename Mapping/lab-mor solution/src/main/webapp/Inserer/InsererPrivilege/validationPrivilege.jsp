@@ -1,5 +1,5 @@
-<%@ page import="ca.uSherbrooke.gegi.dao.privileges.ajoutAdmin" %>
-<%@ page import="ca.uSherbrooke.gegi.dao.privileges.Admin" %><%--
+<%@ page import="ca.uSherbrooke.gegi.dao.privileges.ajoutPrivilege" %>
+<%@ page import="ca.uSherbrooke.gegi.dao.privileges.Privilege" %><%--
   Created by IntelliJ IDEA.
   User: Nadir
   Date: 2018-06-14
@@ -13,21 +13,21 @@
 </head>
 <body>
 <%
-    Admin ajouterAdmin = new Admin();
+    Privilege ajouterPrivilege = new Privilege();
 
 
     String libelle_privilege=request.getParameter("libelle_privilege");
     Integer id_privilege= Integer.valueOf(request.getParameter("id_privilege"));
 
 
-    ajouterAdmin.setId_privilege(id_privilege);
-    ajouterAdmin.setLibelle_privilege(libelle_privilege);
+    ajouterPrivilege.setId_privilege(id_privilege);
+    ajouterPrivilege.setLibelle_privilege(libelle_privilege);
 
-    ajoutAdmin.ajout(ajouterAdmin);
+    ajoutPrivilege.ajout(ajouterPrivilege);
 
 %>
-<H1>Admin Enregistre!!</H1>
-<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu.jsp'">
+<H1>Privilege Sauvegarder!!</H1>
+<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
 </body>
 </html>
 

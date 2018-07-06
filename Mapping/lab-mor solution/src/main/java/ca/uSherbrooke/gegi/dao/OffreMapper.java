@@ -17,4 +17,7 @@ public interface OffreMapper {
                      @Param("bagage") String bagage,@Param("nom_car") String nom_car,
                      @Param("id_campus") int id_campus,@Param("id_offre") int id_offre,
                      @Param("datepresentement") Timestamp datepresentement);
+
+    void ReserverOffre (@Param("cip") String cip,@Param("nombre_de_place") int nombre_de_place);
+
 }

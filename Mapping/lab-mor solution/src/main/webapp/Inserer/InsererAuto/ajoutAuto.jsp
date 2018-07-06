@@ -27,8 +27,7 @@
     <input type="text" name="marque">
     <br><br>
     <input type="submit" formaction="validationAjoutAuto.jsp" value="Valider">
-    <input type = "button" value="Retourner au Menu principale" onclick="window.location.href='/Bienvenu.jsp'">
-    <input type = "button" value="Retourner a Autos" onclick="window.location.href='/Afficher/afficherAuto.jsp'">
+    <input type = "button" value="Retourner au Menu principale" onclick="window.location.href='/Bienvenu'">
 </form>
 </body>
 </html>

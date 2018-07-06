@@ -24,6 +24,7 @@
         <th>Bagages</th>
         <th>Modele auto</th>
         <th>Annee de l'auto</th>
+        <th>Reserver</th>
     </tr>
     </thead>
     <tbody>
@@ -37,11 +38,16 @@
             <td><%=CaracteristiquesOffres.getBagage()%></td>
             <td><%=CaracteristiquesOffres.getAutoNom()%></td>
             <td><%=CaracteristiquesOffres.getAutoAnnee()%></td>
+            <td>
+                <form action =Reservation/validationReservation.jsp>
+                    <input type="submit" value="Reserver l'offre">
+                </form>
+            </td>
         </tr>
     </tbody>
 </table>
 <br>
-<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu.jsp'">
+<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
 <input type = "button" value="Ajouter une offre" onclick="window.location.href='Inserer/InsererOffre/ajoutOffre.jsp'">
 <br></body>
 </html>

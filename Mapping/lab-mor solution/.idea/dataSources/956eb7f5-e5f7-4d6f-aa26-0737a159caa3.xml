@@ -408,8 +408,8 @@
     </schema>
     <schema id="90" parent="10" name="projets3">
       <ObjectId>74829</ObjectId>
-      <IntrospectionTimestamp>2018-07-05.11:27:29.670</IntrospectionTimestamp>
-      <IntrospectionStateNumber>29046</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-07-05.20:41:57.222</IntrospectionTimestamp>
+      <IntrospectionStateNumber>29067</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="91" parent="10" name="public">
@@ -524,17 +524,17 @@
       <ObjectId>74930</ObjectId>
       <StateNumber>28907</StateNumber>
     </table>
-    <view id="112" parent="90" name="v_admin">
-      <ObjectId>75342</ObjectId>
-      <StateNumber>29045</StateNumber>
-    </view>
-    <view id="113" parent="90" name="v_auto">
+    <view id="112" parent="90" name="v_auto">
       <ObjectId>74990</ObjectId>
       <StateNumber>28915</StateNumber>
     </view>
-    <view id="114" parent="90" name="v_offres">
+    <view id="113" parent="90" name="v_offres">
       <ObjectId>74999</ObjectId>
       <StateNumber>28920</StateNumber>
+    </view>
+    <view id="114" parent="90" name="v_privilege">
+      <ObjectId>75342</ObjectId>
+      <StateNumber>29067</StateNumber>
     </view>
     <routine id="115" parent="90" name="fusion_offre">
       <ObjectId>74998</ObjectId>
@@ -1142,95 +1142,95 @@ id_offre</RefColNames>
       <UnderlyingIndexName>pk_ville</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="202" parent="112" name="id_privilege">
-      <Position>1</Position>
-      <DataType>integer|0s</DataType>
-      <StateNumber>29045</StateNumber>
-    </column>
-    <column id="203" parent="112" name="libelle_privilege">
-      <Position>2</Position>
-      <DataType>text|0s</DataType>
-      <StateNumber>29045</StateNumber>
-    </column>
-    <rule id="204" parent="112" name="vue">
-      <ObjectId>75346</ObjectId>
-      <StateNumber>29046</StateNumber>
-      <Turn>instead-of</Turn>
-      <Events>U</Events>
-      <FireMode>origin</FireMode>
-    </rule>
-    <column id="205" parent="113" name="cip">
+    <column id="202" parent="112" name="cip">
       <Position>1</Position>
       <DataType>varchar(8)|0s</DataType>
       <StateNumber>28915</StateNumber>
     </column>
-    <column id="206" parent="113" name="nom_car">
+    <column id="203" parent="112" name="nom_car">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <StateNumber>28915</StateNumber>
     </column>
-    <column id="207" parent="113" name="annee_car">
+    <column id="204" parent="112" name="annee_car">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>28915</StateNumber>
     </column>
-    <column id="208" parent="113" name="marque">
+    <column id="205" parent="112" name="marque">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <StateNumber>28915</StateNumber>
     </column>
-    <rule id="209" parent="113" name="vue">
+    <rule id="206" parent="112" name="vue">
       <ObjectId>74994</ObjectId>
       <StateNumber>28916</StateNumber>
       <Turn>instead-of</Turn>
       <Events>U</Events>
       <FireMode>origin</FireMode>
     </rule>
-    <column id="210" parent="114" name="nom">
+    <column id="207" parent="113" name="nom">
       <Position>1</Position>
       <DataType>text|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
-    <column id="211" parent="114" name="prenom">
+    <column id="208" parent="113" name="prenom">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
-    <column id="212" parent="114" name="ville">
+    <column id="209" parent="113" name="ville">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
-    <column id="213" parent="114" name="libelle">
+    <column id="210" parent="113" name="libelle">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
-    <column id="214" parent="114" name="dateoffre">
+    <column id="211" parent="113" name="dateoffre">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
-    <column id="215" parent="114" name="nbplace">
+    <column id="212" parent="113" name="nbplace">
       <Position>6</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
-    <column id="216" parent="114" name="bagage">
+    <column id="213" parent="113" name="bagage">
       <Position>7</Position>
       <DataType>bpchar|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
-    <column id="217" parent="114" name="autonom">
+    <column id="214" parent="113" name="autonom">
       <Position>8</Position>
       <DataType>text|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
-    <column id="218" parent="114" name="autoannee">
+    <column id="215" parent="113" name="autoannee">
       <Position>9</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>28920</StateNumber>
     </column>
+    <column id="216" parent="114" name="id_privilege">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>29045</StateNumber>
+    </column>
+    <column id="217" parent="114" name="libelle_privilege">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>29045</StateNumber>
+    </column>
+    <rule id="218" parent="114" name="vue">
+      <ObjectId>75346</ObjectId>
+      <StateNumber>29046</StateNumber>
+      <Turn>instead-of</Turn>
+      <Events>U</Events>
+      <FireMode>origin</FireMode>
+    </rule>
     <argument id="219" parent="115">
       <ArgumentDirection>T</ArgumentDirection>
       <DataType>table(nom text, prenom text, ville text, libelle text, dateoffre timestamp, nbplace integer, bagage char, autonom text, autoannee integer)|0v</DataType>

@@ -31,7 +31,7 @@
 
 %>
     <H1>Auto Enregistre!!</H1>
-<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu.jsp'">
+<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
 </body>
 </html>
 
