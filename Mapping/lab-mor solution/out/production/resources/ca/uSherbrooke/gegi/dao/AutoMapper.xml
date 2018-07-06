@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
-<<<<<<< HEAD
-  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="ca.uSherbrooke.gegi.dao.AutoMapper" >
-
-	
-	<select id="selectAuto" resultType="Auto">
-	    SELECT cip, nom_car, annee_car, marque
-	    from projets3.v_auto;
-	</select>
-	
-=======
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="ca.uSherbrooke.gegi.dao.AutoMapper" >
@@ -27,6 +15,5 @@
 		INSERT into projets3.automobiles(cip, nom_car, annee_car, marque)
 		values (#{cip},#{nom_car},#{annee_car},#{marque})
 	</insert>
->>>>>>> Nadir
 
 </mapper>

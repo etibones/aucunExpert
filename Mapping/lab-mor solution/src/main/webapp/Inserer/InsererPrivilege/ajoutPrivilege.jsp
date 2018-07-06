@@ -19,8 +19,7 @@
     <input type="text" name="libelle_privilege">
     <br><br>
     <input type="submit" formaction="validationAjoutPrivilege.jsp" value="Valider">
-    <input type = "button" value="Retourner au Menu principale" onclick="window.location.href='/Bienvenu.jsp'">
-    <input type = "button" value="Retourner au admnitrateurs" onclick="window.location.href='/Afficher/afficherPrivilege.jsp'">
+    <input type = "button" value="Retourner au Menu principale" onclick="window.location.href='/Bienvenu'">
 </form>
 </body>
 </html>

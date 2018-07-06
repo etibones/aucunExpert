@@ -17,8 +17,6 @@ public class AutoServlet extends HttpServlet {
         System.err.println("Servlet initialized!");
     }
 
-    private Offre offre = new Offre();
-    private String nom = "initiale vide";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -26,8 +24,6 @@ public class AutoServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        response.getWriter().println("Bienvenu" + request.getUserPrincipal().toString());
-        nom = request.getParameter("nom");
         RequestDispatcher view = request.getRequestDispatcher("Afficher/afficherAuto.jsp");
         view.forward(request, response);
     }

@@ -17,8 +17,6 @@ public class OffreServlet extends HttpServlet {
         System.err.println("Servlet initialized!");
     }
 
-    private Offre offre = new Offre();
-    private String nom = "initiale vide";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -26,10 +24,8 @@ public class OffreServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        response.getWriter().println("Bienvenu" + request.getUserPrincipal().toString());
         RequestDispatcher view = request.getRequestDispatcher("Afficher/afficherOffres.jsp");
         view.forward(request, response);
 
-        nom = request.getParameter("nom");
     }
 }

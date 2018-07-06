@@ -22,8 +22,12 @@
             <input type="submit" value="Mes autos">
         </form>
 
-        <form action="/administrateurs">
-            <input type="submit" value="Administrateurs">
+        <form action="/privilege">
+            <input type="submit" value="Voir mes Privileges">
+        </form>
+
+        <form action="/monCompte">
+            <input type="submit" value="Mon Compte">
         </form>
     </body>
 </html>

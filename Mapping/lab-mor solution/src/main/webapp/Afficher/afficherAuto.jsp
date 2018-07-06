@@ -26,7 +26,7 @@
     </tbody>
 </table>
 <br>
-<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu.jsp'">
+<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
 <input type = "button" value="Ajouter une auto" onclick="window.location.href='Inserer/InsererAuto/ajoutAuto.jsp'">
 <br></body>
 </html>

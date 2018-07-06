@@ -41,8 +41,7 @@
     <input type="text" name="autoNom">
     <br><br>
     <input type="submit" formaction="validationAjoutOffre.jsp" value="Valider">
-    <input type = "button" value="Retourner au Menu principale" onclick="window.location.href='/Bienvenu.jsp'">
-    <input type = "button" value="Retourner aux Offres" onclick="window.location.href='/Afficher/afficherOffres.jsp'">
+    <input type = "button" value="Retourner au Menu principale" onclick="window.location.href='/Bienvenu'">
 </form>
 </body>
 </html>
