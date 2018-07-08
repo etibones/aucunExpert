@@ -2,10 +2,10 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="ca.uSherbrooke.gegi.dao.privilegeMapper" >
+<mapper namespace="ca.uSherbrooke.gegi.dao.PrivilegeMapper" >
 
 
-    <select id="selectPrivilege" resultType="ca.uSherbrooke.gegi.dao.privileges.Privilege">
+    <select id="selectPrivilege" resultType="Privilege">
       SELECT libelle_privilege,id_privilege
       from projets3.v_privilege;
     </select>
