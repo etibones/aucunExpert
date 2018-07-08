@@ -9,6 +9,11 @@
 	    SELECT nom, prenom, ville,libelle, dateoffre, nbplace, bagage, autonom, autoannee
 	    from projets3.v_offres;
 	</select>
-	
+
+		<update id="UpdateOffre" useGeneratedKeys="false" parameterType="map">
+			UPDATE projets3.offres set
+			 nombre_de_place = #{nombre_de_place}
+			 where cip = #{cip}
+		</update>
 
 </mapper>

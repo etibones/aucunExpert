@@ -7,5 +7,17 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://zeus.gel.usherbrooke.ca:5432/s3info08</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="s3info08@zeus.gel.usherbrooke.ca [2]" uuid="c36ccc14-96c0-445b-8f0b-76d82e359587">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://zeus.gel.usherbrooke.ca:5432/s3info08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="s3info04@zeus.gel.usherbrooke.ca" uuid="b0d5f06b-3b49-4e5c-b8ef-d5989547f389">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://zeus.gel.usherbrooke.ca:5432/s3info04</jdbc-url>
+    </data-source>
   </component>
 </project>

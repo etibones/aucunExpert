@@ -9,5 +9,23 @@
       <user-name>s3info08</user-name>
       <introspection-schemas>s3info08:projets3,public</introspection-schemas>
     </data-source>
+    <data-source name="s3info08@zeus.gel.usherbrooke.ca [2]" uuid="c36ccc14-96c0-445b-8f0b-76d82e359587">
+      <database-info product="PostgreSQL" version="9.6.9" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>s3info08</user-name>
+      <introspection-schemas>s3info08:public</introspection-schemas>
+    </data-source>
+    <data-source name="s3info04@zeus.gel.usherbrooke.ca" uuid="b0d5f06b-3b49-4e5c-b8ef-d5989547f389">
+      <database-info product="PostgreSQL" version="9.6.9" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>s3info04</user-name>
+      <introspection-schemas>s3info04:projets3,public</introspection-schemas>
+    </data-source>
   </component>
 </project>
