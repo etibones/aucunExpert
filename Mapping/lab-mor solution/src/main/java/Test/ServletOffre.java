@@ -1,5 +1,6 @@
 package Test;
 
+import ca.uSherbrooke.gegi.VueOffre;
 import ca.uSherbrooke.gegi.dao.Offre;
 
 import javax.servlet.RequestDispatcher;
@@ -24,8 +25,8 @@ public class ServletOffre extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        response.getWriter().println("Bienvenu" + request.getUserPrincipal().toString());
+        // System.out.println( VueOffre.Vue());
+        response.getWriter().println("Bienvenue" + request.getUserPrincipal().toString());
         RequestDispatcher view = request.getRequestDispatcher("/afficherOffres.jsp");
         view.forward(request, response);
     }
