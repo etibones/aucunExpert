@@ -9,7 +9,7 @@ drop SCHEMA ProjetS3 CASCADE ;
 CREATE SCHEMA ProjetS3 ;
 
 set SEARCH_PATH = ProjetS3;
-/*----------------------------------------------------------*
+/*----------------------------------------------------------*/
 
 drop index PEUT_AVOIR_FK;
 

@@ -23,7 +23,7 @@ public class OffreServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        //request.getSession().setAttribute(request.getUserPrincipal().toString(),);
         RequestDispatcher view = request.getRequestDispatcher("Afficher/afficherOffres.jsp");
         view.forward(request, response);
 

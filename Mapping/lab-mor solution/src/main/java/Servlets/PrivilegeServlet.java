@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/privilege", loadOnStartup = 1)
+@WebServlet(urlPatterns = "/usager", loadOnStartup = 1)
 public class PrivilegeServlet extends HttpServlet {
 
     public PrivilegeServlet() {
@@ -22,7 +22,7 @@ public class PrivilegeServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        RequestDispatcher view = request.getRequestDispatcher("Afficher/afficherPrivilege.jsp");
+        RequestDispatcher view = request.getRequestDispatcher("Afficher/afficherUsager.jsp");
         view.forward(request, response);
 
     }

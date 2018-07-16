@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="s3info08@zeus.gel.usherbrooke.ca" uuid="956eb7f5-e5f7-4d6f-aa26-0737a159caa3">
+    <data-source source="LOCAL" name="s3info08@zeus.gel.usherbrooke.ca" uuid="4ed63ee8-2370-4627-b274-caf5a3347387">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://zeus.gel.usherbrooke.ca:5432/s3info08</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="s3info04@zeus.gel.usherbrooke.ca" uuid="1a3bf395-c622-44b0-8a20-2095e2748ba5">
+    <data-source source="LOCAL" name="s3info04@zeus.gel.usherbrooke.ca" uuid="5b8a0980-2fc1-4c54-bd64-cf1c02f67c6f">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>

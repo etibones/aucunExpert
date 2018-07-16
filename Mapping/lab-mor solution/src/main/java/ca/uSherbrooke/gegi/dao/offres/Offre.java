@@ -1,29 +1,29 @@
 package ca.uSherbrooke.gegi.dao.offres;
 
 public class Offre {
-	private static String nom;
-	private static String prenom;
-	private static String ville;
-	private static String libelle;
-	private static String dateoffre;
-	private static Integer nbplace;
-	private static String bagage;
-	private static String autonom;
-	private static Integer autoannee;
-	private static String cip;
-	private static Integer campus;
+	private  String nom;
+	private  String prenom;
+	private   String ville;
+	private   String libelle;
+	private   String dateoffre;
+	private   Integer nbplace;
+	private   String bagage;
+	private   String autonom;
+	private   Integer autoannee;
+	private   String cip;
+	private   Integer campus;
 
-	public static String getCip() { return cip;}
-	public static String getNom() { return nom;}
-    public static String getPrenom() { return prenom;}
-    public static String getVille() { return ville;}
-    public static String getLibelle() { return libelle;}
-    public static String getDateoffre() { return dateoffre;}
-    public static Integer getNbplace() { return nbplace;}
-    public static String getBagage() { return bagage;}
-    public static String getAutonom() { return autonom;}
-    public static Integer getAutoannee() { return autoannee;}
-	public static Integer getCampus() { return campus;}
+	public   String getCip() { return cip;}
+	public   String getNom() { return nom;}
+	public   String getPrenom() { return prenom;}
+	public   String getVille() { return ville;}
+	public   String getLibelle() { return libelle;}
+	public   String getDateoffre() { return dateoffre;}
+	public   Integer getNbplace() { return nbplace;}
+	public   String getBagage() { return bagage;}
+	public   String getAutonom() { return autonom;}
+	public   Integer getAutoannee() { return autoannee;}
+	public   Integer getCampus() { return campus;}
 
 	public void setAutoAnnee(Integer autoannee) {
 		this.autoannee = autoannee;

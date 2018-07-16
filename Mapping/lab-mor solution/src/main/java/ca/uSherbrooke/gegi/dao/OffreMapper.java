@@ -3,12 +3,13 @@ package ca.uSherbrooke.gegi.dao;
 
 import ca.uSherbrooke.gegi.dao.offres.Offre;
 import org.apache.ibatis.annotations.Param;
+import java.util.List;
 
 import java.sql.Timestamp;
 
 public interface OffreMapper {
 
-    Offre selectOffre();
+    List<Offre> selectOffre();
     //void insertOffre(@Param("id_ville") int id_ville,@Param("libelle_ville") String libelle_ville);
 
     void insertOffre(@Param("cip") String cip,@Param("id_ville") Integer id_ville,
