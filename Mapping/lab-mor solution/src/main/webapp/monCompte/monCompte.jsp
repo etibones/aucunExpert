@@ -1,3 +1,4 @@
+<%@ page import="ca.uSherbrooke.gegi.dao.usager.Usagercarac" %>
 <%--
   Created by IntelliJ IDEA.
   User: Nadir
@@ -11,21 +12,24 @@
     <title>Mon Compte</title>
 </head>
 <body>
-    <H1>Bonjour!! <%=request.getUserPrincipal()%> bienvenu dans vos paramètres de compte</H1>
+    <%
+        Usagercarac usager = new Usagercarac(request.getUserPrincipal().getName());
+    %>
+    <H1>Bonjour!! <%=request.getUserPrincipal()%> bienvenue dans vos paramètres de compte</H1>
     <br>
-    Nom:<br>
-    <%%>
+    Nom:
+    <%=usager.getNom()%>
     <br>
-    Prenom:<br>
-    <%%>
+    Prenom:
+    <%=usager.getPrenom()%>
     <br>
-    Statut:<br>
-    <%%>
+    Statut:
+    <%=usager.getPrivilege()%>
     <br>
-    Couriel:<br>
-    <%%>
+    Couriel:
+    <%=usager.getCouriel()%>
     <br>
-    <input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
-    <input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
+    <input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenue'">
+
 </body>
 </html>

@@ -53,15 +53,14 @@
                     <input type="submit" value="Reserver l'offre">
                 </form>
             </td>
-            <% i++;
-                System.out.println(i);%>
+            <% i++; %>
         </tr>
     </c:forEach>
 
     </tbody>
 </table>
 <br>
-<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
+<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenue'">
 <input type = "button" value="Ajouter une offre" onclick="window.location.href='Inserer/InsererOffre/ajoutOffre.jsp'">
 <br></body>
 </html>

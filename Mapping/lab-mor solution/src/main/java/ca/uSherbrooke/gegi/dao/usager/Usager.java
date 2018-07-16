@@ -2,13 +2,13 @@ package ca.uSherbrooke.gegi.dao.usager;
 
 
 public class Usager {
-    private static String privilege;
-    private static String couriel;
-    private static String nom;
-    private static String prenom;
-    private static String cip;
+    private String privilege;
+    private String couriel;
+    private String nom;
+    private String prenom;
+    private String cip;
 
-    public static String getPrivilege() {
+    public String getPrivilege() {
         return privilege;
     }
 
@@ -16,7 +16,7 @@ public class Usager {
         this.privilege = privilege;
     }
 
-    public static String getCouriel() {
+    public String getCouriel() {
         return couriel;
     }
 
@@ -24,7 +24,7 @@ public class Usager {
         this.couriel = couriel;
     }
 
-    public static String getCip() {
+    public String getCip() {
         return cip;
     }
 
@@ -32,7 +32,7 @@ public class Usager {
         this.cip = cip;
     }
 
-    public static String getPrenom() {
+    public String getPrenom() {
         return prenom;
     }
 
@@ -40,7 +40,7 @@ public class Usager {
         this.prenom = prenom;
     }
 
-    public static String getNom() {
+    public String getNom() {
         return nom;
     }
 
