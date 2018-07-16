@@ -15,7 +15,7 @@
         </init-param>
         <init-param>
             <param-name>serverName</param-name>
-            <param-value>http://localhost:8089</param-value>
+            <param-value>http://localhost:8080</param-value>
         </init-param>
     </filter>
     <filter-mapping>
@@ -33,7 +33,7 @@
         </init-param>
         <init-param>
             <param-name>serverName</param-name>
-            <param-value>http://localhost:8089</param-value>
+            <param-value>http://localhost:8080</param-value>
         </init-param>
     </filter>
     <filter-mapping>
@@ -50,5 +50,6 @@
         <filter-name>CAS HttpServletRequest Wrapper Filter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+
 
 </web-app>
