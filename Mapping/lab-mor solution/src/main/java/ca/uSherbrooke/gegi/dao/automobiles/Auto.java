@@ -2,12 +2,12 @@ package ca.uSherbrooke.gegi.dao.automobiles;
 
 
 public class Auto {
-    private static int annee_car;
-    private static String marque;
-    private static String nom_car;
-    private static String cip;
+    private  int annee_car;
+    private  String marque;
+    private String nom_car;
+    private String cip;
 
-    public static int getAnnee() {
+    public int getAnnee() {
         return annee_car;
     }
 
@@ -15,7 +15,7 @@ public class Auto {
         this.annee_car = annee;
     }
 
-    public static String getMarque() {
+    public String getMarque() {
         return marque;
     }
 
@@ -23,7 +23,7 @@ public class Auto {
         this.marque = marque;
     }
 
-    public static String getModele() {
+    public String getModele() {
         return nom_car;
     }
 
@@ -31,7 +31,7 @@ public class Auto {
         this.nom_car = nom_car;
     }
 
-    public static String getCip() {
+    public String getCip() {
         return cip;
     }
 
