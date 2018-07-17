@@ -17,10 +17,18 @@
     </thead>
     <tbody>
     <tr>
-        <td><%=Autocarac.getMarque()%></td>
-        <td><%=Autocarac.getModele()%></td>
-        <td><%=Autocarac.getAnnee()%></td>
+        <% Autocarac carac = new Autocarac();
+            int i = 0;
+            int taille = carac.getTaille();
+            request.setAttribute("Taille", taille);
+        %>
+<c:forEach var="iii" begin = "0" end = "${Taille-1}">
+        <td><%=carac.getMarque(i)%></td>
+        <td><%=carac.getModele(i)%></td>
+        <td><%=carac.getAnnee(i)%></td>
+        <% i++; %>
     </tr>
+    </c:forEach>
     </tbody>
 </table>
 <br>

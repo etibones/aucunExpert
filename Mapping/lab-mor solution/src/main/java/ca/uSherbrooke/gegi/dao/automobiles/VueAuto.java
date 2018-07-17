@@ -5,12 +5,14 @@ import ca.uSherbrooke.gegi.server.guice.Module;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 
+import java.util.List;
+
 public class VueAuto {
 
-    public static Auto Vue() {
+    public static List<Auto> Vue() {
         Injector injector = Guice.createInjector(new Module());
         AutoMapper autoMapper = injector.getInstance(AutoMapper.class);
-        Auto auto = autoMapper.selectAuto();
+        List<Auto> auto = autoMapper.selectAuto();
         return auto;
     }
 

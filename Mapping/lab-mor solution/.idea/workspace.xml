@@ -17,6 +17,132 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info04@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info04@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info04@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info04: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info04@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info04: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info04@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info04: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info04: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info04: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="projets3: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="projets3: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="projets3: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="projets3: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="projets3: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="s3info08@zeus.gel.usherbrooke.ca [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="s3info08: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="projets3: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -24,46 +150,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Bienvenu.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Bienvenu.jsp">
+      <file leaf-file-name="afficherAuto.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherAuto.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="monCompte.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/monCompte/monCompte.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Usagercarac.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/Usagercarac.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-              <folding>
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VueUsager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/VueUsager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+            <state relative-caret-position="162">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -449,6 +540,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Servlets/MonCompteServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/Usagercarac.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/monCompte/monCompte.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/AutoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/VueAuto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/Autocarac.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Afficher/afficherAuto.jsp" />
       </list>
     </option>
   </component>
@@ -531,7 +628,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gegi" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="offres" type="462c0819:PsiDirectoryNode" />
+              <item name="automobiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
@@ -541,7 +638,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gegi" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="usager" type="462c0819:PsiDirectoryNode" />
+              <item name="offres" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
@@ -614,6 +711,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -758,12 +857,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531772986447</updated>
-      <workItem from="1531772991234" duration="4005000" />
+      <workItem from="1531772991234" duration="7424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4005000" />
+    <option name="totallyTimeSpent" value="7424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -778,7 +877,7 @@
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info anchor="bottom" id="Build" weight="0.32965517" />
-      <window_info anchor="right" id="Database" />
+      <window_info active="true" anchor="right" id="Database" visible="true" weight="0.3294271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -790,7 +889,7 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -799,6 +898,7 @@
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32965517" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -824,36 +924,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/Caracteristiques.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="15" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/Usager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/VueOffre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/OffreServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -871,9 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/UsagerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -881,13 +952,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -922,8 +986,289 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/monCompte/monCompte.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/VueOffre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/Offre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/OffreServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/87987e72-3ae4-468a-9d43-2d9f494d3e27/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://87987e72-3ae4-468a-9d43-2d9f494d3e27/database/s3info08/schema/public/table/offres">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://87987e72-3ae4-468a-9d43-2d9f494d3e27/database/s3info08/schema/public/table/automobiles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/87987e72-3ae4-468a-9d43-2d9f494d3e27">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>87987e72-3ae4-468a-9d43-2d9f494d3e27</OriginalElement>
+          <nodes>
+            <node x="608.0" y="820.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.ap_cheminement</node>
+            <node x="0.0" y="820.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.VIEW:s3info08.projets3.v_offres</node>
+            <node x="209.0" y="820.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.VIEW:s3info08.projets3.v_auto</node>
+            <node x="924.0" y="820.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.etudiant_app</node>
+            <node x="805.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.ap_app</node>
+            <node x="775.0" y="820.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.cheminement</node>
+            <node x="557.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.universite</node>
+            <node x="285.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.ap_etudiant</node>
+            <node x="562.5" y="146.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.automobiles</node>
+            <node x="402.0" y="820.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.VIEW:s3info08.projets3.v_privilege</node>
+            <node x="518.4861111111111" y="614.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.reserver</node>
+            <node x="921.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.version</node>
+            <node x="45.5" y="157.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.log</node>
+            <node x="235.5" y="168.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.campus</node>
+            <node x="684.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.etudiant</node>
+            <node x="145.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.programme</node>
+            <node x="0.0" y="1166.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.app</node>
+            <node x="0.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.departement</node>
+            <node x="749.7152777777778" y="157.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.droits</node>
+            <node x="406.5" y="168.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.ville</node>
+            <node x="601.6388888888889" y="0.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.usagers</node>
+            <node x="1035.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.faculte</node>
+            <node x="424.0" y="1092.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.ap_version</node>
+            <node x="786.2152777777778" y="11.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.privileges</node>
+            <node x="97.0" y="1166.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info04.app.ap</node>
+            <node x="0.0" y="11.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.evenements</node>
+            <node x="367.0" y="314.0">87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.offres</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.log" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.usagers">
+              <point x="42.5" y="-48.0" />
+              <point x="173.0" y="121.0" />
+              <point x="621.8888888888889" y="121.0" />
+              <point x="-60.75" y="48.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.reserver" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.offres">
+              <point x="-37.75" y="-80.5" />
+              <point x="556.2361111111111" y="589.0" />
+              <point x="474.5" y="589.0" />
+              <point x="0.0" y="125.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.automobiles" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.usagers">
+              <point x="0.0" y="-59.0" />
+              <point x="636.5" y="121.0" />
+              <point x="662.3888888888889" y="121.0" />
+              <point x="-20.25" y="48.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.offres" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.ville">
+              <point x="0.0" y="-125.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.offres" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.automobiles">
+              <point x="71.66666666666669" y="-125.0" />
+              <point x="546.1666666666667" y="289.0" />
+              <point x="636.5" y="289.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.droits" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.privileges">
+              <point x="39.0" y="-48.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.reserver" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.usagers">
+              <point x="37.75" y="-80.5" />
+              <point x="631.7361111111111" y="589.0" />
+              <point x="721.0" y="589.0" />
+              <point x="721.0" y="121.0" />
+              <point x="702.8888888888889" y="121.0" />
+              <point x="20.25" y="48.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.offres" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.campus">
+              <point x="-71.66666666666669" y="-125.0" />
+              <point x="402.83333333333337" y="289.0" />
+              <point x="311.0" y="289.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.log" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.evenements">
+              <point x="-42.5" y="-48.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.droits" target="87987e72-3ae4-468a-9d43-2d9f494d3e27.TABLE:s3info08.projets3.usagers">
+              <point x="-39.0" y="-48.0" />
+              <point x="788.7152777777778" y="121.0" />
+              <point x="743.3888888888889" y="121.0" />
+              <point x="60.75" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5459119496855346" x="299.46082949308754" y="429.63133640552996" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://87987e72-3ae4-468a-9d43-2d9f494d3e27/database/s3info08/schema/projets3/table/offres">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://87987e72-3ae4-468a-9d43-2d9f494d3e27/database/s3info08/schema/projets3/table/reserver">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9649125c-5544-4295-ac10-ab5ae86a984c/database/s3info04/schema/public/table/offres">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9649125c-5544-4295-ac10-ab5ae86a984c/database/s3info04/schema/public/table/reserver">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9649125c-5544-4295-ac10-ab5ae86a984c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/AutoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/Caracteristiques.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/VueAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/Autocarac.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c52411bc-8d1f-4b9b-8b3c-e576ef7f343c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/AutoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/automobiles/ajoutAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://87987e72-3ae4-468a-9d43-2d9f494d3e27/database/s3info08/schema/projets3/table/automobiles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c52411bc-8d1f-4b9b-8b3c-e576ef7f343c/database/s3info08/schema/projets3/table/automobiles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c52411bc-8d1f-4b9b-8b3c-e576ef7f343c/database/s3info08/schema/projets3/view/v_auto">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherAuto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
         </state>
       </provider>
     </entry>

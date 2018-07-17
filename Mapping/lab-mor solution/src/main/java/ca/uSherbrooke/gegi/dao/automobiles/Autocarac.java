@@ -1,24 +1,31 @@
 package ca.uSherbrooke.gegi.dao.automobiles;
 
 
+import java.util.List;
+
 public class Autocarac {
 
-    private static String[] temp = VueAuto.Vue().toString().split(",");
+    private List<Auto> temp;
 
-    public static String getCip() {
-        return temp[0];
+    public Autocarac()
+    {
+        temp = VueAuto.Vue();
+    }
+    public int getTaille() {return temp.size();}
+    public  String getCip(int i) {
+        return temp.get(i).getCip();
     }
 
-    public static String getMarque() {
-        return temp[1];
+    public String getMarque(int i) {
+        return temp.get(i).getMarque();
     }
 
-    public static String getModele() {
-        return temp[2];
+    public String getModele(int i) {
+        return temp.get(i).getModele();
     }
 
-    public static String getAnnee() {
-        return temp[3];
+    public int getAnnee(int i) {
+        return temp.get(i).getAnnee();
     }
 
 }
