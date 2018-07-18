@@ -17,7 +17,7 @@
     </thead>
     <tbody>
     <tr>
-        <% Autocarac carac = new Autocarac();
+        <% Autocarac carac = new Autocarac(request.getUserPrincipal().toString());
             int i = 0;
             int taille = carac.getTaille();
             request.setAttribute("Taille", taille);

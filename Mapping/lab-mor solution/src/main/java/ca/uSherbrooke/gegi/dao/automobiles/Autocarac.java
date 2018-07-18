@@ -7,9 +7,9 @@ public class Autocarac {
 
     private List<Auto> temp;
 
-    public Autocarac()
+    public Autocarac(String cip)
     {
-        temp = VueAuto.Vue();
+        temp = VueAuto.Vue(cip);
     }
     public int getTaille() {return temp.size();}
     public  String getCip(int i) {

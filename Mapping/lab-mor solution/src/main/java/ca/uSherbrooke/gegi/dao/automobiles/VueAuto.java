@@ -9,10 +9,10 @@ import java.util.List;
 
 public class VueAuto {
 
-    public static List<Auto> Vue() {
+    public static List<Auto> Vue(String cip) {
         Injector injector = Guice.createInjector(new Module());
         AutoMapper autoMapper = injector.getInstance(AutoMapper.class);
-        List<Auto> auto = autoMapper.selectAuto();
+        List<Auto> auto = autoMapper.selectAuto(cip);
         return auto;
     }
 

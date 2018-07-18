@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface AutoMapper {
 
-    List<Auto> selectAuto();
+    List<Auto> selectAuto(@Param("cip") String cip);
 
     void insertAuto(@Param("cip") String cip, @Param("nom_car") String nom_car,
                     @Param("marque") String marque, @Param("annee_car") int annee_car);
