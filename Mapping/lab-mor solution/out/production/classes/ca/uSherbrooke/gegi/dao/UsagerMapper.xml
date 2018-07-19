@@ -11,10 +11,17 @@
       where cip = #{cip}
     </select>
 
+    <select id="selectPrivilege" resultType="Privilege">
+      SELECT id_privilege
+      from projets3.v_privilege
+      where cip = #{cip}
+    </select>
+
     <update id="modifierPrivilege" useGeneratedKeys="false" parameterType="map">
         UPDATE projets3.usagers set
             id_privilege = #{newPrivilege}
-        where cip = #{cip}
+        where cip = #{cip};
     </update>
+
 
 </mapper>

@@ -20,7 +20,7 @@ public class ajoutOffre {
         System.out.println(offre +","+ tsmp);
 
         offreMapper.insertOffre(offre.getCip(),Integer.valueOf(offre.getVille()),offre.getLibelle(),tsmp,
-                               4,offre.getBagage(),offre.getAutonom(),1,
+                               4,offre.getBagage(),offre.getAutonom(),offre.getCampus(),
                                 1,tsmp);
     }
 

@@ -1,5 +1,7 @@
 <%@ page import="ca.uSherbrooke.gegi.dao.usager.updatePrivilege" %>
 <%@ page import="ca.uSherbrooke.gegi.dao.usager.Usager" %>
+<%@ page import="ca.uSherbrooke.gegi.dao.usager.Privilege" %>
+<%@ page import="ca.uSherbrooke.gegi.dao.usager.VuePrivilege" %>
 <%--
   Created by IntelliJ IDEA.
   User: Nadir
@@ -7,16 +9,25 @@
   Time: 12:33
   To change this template use File | Settings | File Templates.
 --%>
+<%response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Privilege mis a jour</title>
 </head>
 <body>
 <%
     Usager updateP = new Usager();
+    Privilege privilege;
+    privilege = VuePrivilege.Vue(request.getUserPrincipal().toString());
+    if (Integer.valueOf(privilege.getPrivilege()) == 2) {
+        updatePrivilege.ajout(updateP,request.getUserPrincipal().toString(),1);
+    }
 
-    updatePrivilege.ajout(updateP);
+    else {
+        updatePrivilege.ajout(updateP,request.getUserPrincipal().toString(),2);
+    }
+
 %>
 <H1>Privilege Sauvegarder!!</H1>
 <input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">

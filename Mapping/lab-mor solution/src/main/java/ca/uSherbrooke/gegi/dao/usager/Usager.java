@@ -2,6 +2,7 @@ package ca.uSherbrooke.gegi.dao.usager;
 
 
 public class Usager {
+
     private String privilege;
     private String couriel;
     private String nom;
