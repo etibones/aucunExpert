@@ -84,35 +84,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="validationPrivilege.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Inserer/ModifierPrivilege/validationPrivilege.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updatePrivilege.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/updatePrivilege.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsagerMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/UsagerMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -500,7 +472,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/Inserer/InsererOffre/validationAjoutOffre.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/reservation/ReserverOffre.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/monCompte/monCompte.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/monCompte/monComptePassager.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Servlets/MainServlet.java" />
@@ -517,6 +488,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/updatePrivilege.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Inserer/ModifierPrivilege/validationPrivilege.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/UsagerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml" />
       </list>
     </option>
   </component>
@@ -599,6 +571,16 @@
               <item name="gegi" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="automobiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gegi" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="reservation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
@@ -883,16 +865,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531963002179</updated>
-      <workItem from="1531963003831" duration="12192000" />
+      <workItem from="1531963003831" duration="12436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12192000" />
+    <option name="totallyTimeSpent" value="12436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -1034,20 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/reservation/ReserverOffre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1232,17 +1199,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/UsagerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/UsagerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/updatePrivilege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -1253,10 +1220,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/updatePrivilege.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/UsagerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="189">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/reservation/ReserverOffre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>

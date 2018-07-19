@@ -20,7 +20,7 @@
     <update id="ReserverOffre" useGeneratedKeys="false" parameterType="map">
         UPDATE projets3.offres set
             nombre_de_place = #{nombre_de_place}
-        where /*id_offre = #{id_offre}*/cip = #{cip}
+        where cip = #{cip}
     </update>
 
 
