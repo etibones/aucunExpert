@@ -23,5 +23,10 @@
         where cip = #{cip}
     </update>
 
+    <delete id="deleteOffre">
+        delete from projets3.offres
+        where nombre_de_place = 0
+    </delete>
+
 
 </mapper>

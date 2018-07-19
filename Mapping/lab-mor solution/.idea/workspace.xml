@@ -84,7 +84,35 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="afficherOffres.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="53" column="85" lean-forward="true" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="offres" pinned="false" current-in-tab="true">
+        <entry file="das://53cb39ec-148d-4b99-8b58-66da0531d99d/database/s3info04/schema/projets3/table/offres">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validationReservation.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Reservation/validationReservation.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -471,7 +499,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/Usager.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Inserer/InsererOffre/validationAjoutOffre.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/reservation/ReserverOffre.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/monCompte/monCompte.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/monCompte/monComptePassager.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Servlets/MainServlet.java" />
@@ -484,11 +511,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Servlets/MonCompteServlet.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_15.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/monCompte/monCompteChauffeur.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Reservation/validationReservation.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/updatePrivilege.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Inserer/ModifierPrivilege/validationPrivilege.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/UsagerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/VueOffre.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Reservation/validationReservation.jsp" />
       </list>
     </option>
   </component>
@@ -571,6 +601,16 @@
               <item name="gegi" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="automobiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab-mor solution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gegi" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="offres" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab-mor solution" type="b2602c69:ProjectViewProjectNode" />
@@ -865,15 +905,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531963002179</updated>
-      <workItem from="1531963003831" duration="12436000" />
+      <workItem from="1531963003831" duration="13876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12436000" />
+    <option name="totallyTimeSpent" value="13876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -884,7 +925,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32838285" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.16187595" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.16187595" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" order="2" />
       <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
@@ -900,7 +941,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Database Console" order="2" weight="0.32838285" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.24962178" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="4" sideWeight="0.5012285" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32838285" />
@@ -969,13 +1010,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://53cb39ec-148d-4b99-8b58-66da0531d99d/database/s3info04/schema/projets3/table/offres">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherUsager.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1008,13 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="87" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
@@ -1107,13 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53cb39ec-148d-4b99-8b58-66da0531d99d/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/usager/Privilege.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1185,13 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Reservation/validationReservation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servlets/MonCompteServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1227,6 +1240,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/offres/VueOffre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/reservation/ReserverOffre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1234,17 +1268,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/uSherbrooke/gegi/dao/OffreMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Reservation/validationReservation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="164">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ca/uSherbrooke/gegi/dao/OffreMapper.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53cb39ec-148d-4b99-8b58-66da0531d99d/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Afficher/afficherOffres.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="53" column="85" lean-forward="true" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://53cb39ec-148d-4b99-8b58-66da0531d99d/database/s3info04/schema/projets3/table/offres">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

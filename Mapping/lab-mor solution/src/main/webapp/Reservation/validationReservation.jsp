@@ -15,7 +15,7 @@
 </head>
 <body>
     <%
-        ReserverOffre.reserv(request.getUserPrincipal().toString());
+        ReserverOffre.reserv(request.getUserPrincipal().toString(),);
     %>
     <H1>Votre reservation as été Enregistre avec succes!!</H1>
     <input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">

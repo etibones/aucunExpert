@@ -21,4 +21,6 @@ public interface OffreMapper {
 
     void ReserverOffre (@Param("cip") String cip,@Param("nombre_de_place") int nombre_de_place);
 
+    void deleteOffre();
+
 }

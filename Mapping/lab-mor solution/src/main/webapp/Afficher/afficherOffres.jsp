@@ -51,7 +51,7 @@
             <td><%=listee.get(i).getAutoannee()%></td>
             <td>
                 <form action =Reservation/validationReservation.jsp>
-                    <input type="submit" value="Reserver l'offre">
+                    <input type="submit" value="Reserver l'offre <%=String.valueOf(i)%>">
                 </form>
             </td>
             <% i++; %>
