@@ -12,16 +12,21 @@
 
     <insert id="insertOffre" useGeneratedKeys="false" parameterType="map" >
         INSERT into projets3.offres (cip, id_ville,libelle_offre, dateoffre, nombre_de_place,
-                                     bagage, nom_car, id_campus,id_offre,datepresentement)
+                                     bagage, nom_car, id_campus,datepresentement)
         values (#{cip},#{id_ville},#{libelle_offre},#{dateoffre},
-                    #{nombre_de_place},#{bagage},#{nom_car},#{id_campus},#{id_offre},#{datepresentement})
+                    #{nombre_de_place},#{bagage},#{nom_car},#{id_campus},#{datepresentement})
     </insert>
 
     <update id="ReserverOffre" useGeneratedKeys="false" parameterType="map">
         UPDATE projets3.offres set
-            nombre_de_place = #{nombre_de_place}
-        where cip = #{cip}
+            nombre_de_place = nombre_de_place-1
+        where id_offre = #{id_offre}
     </update>
+
+    <delete id="deleteOffre">
+        delete from projets3.offres
+        where nombre_de_place = 0
+    </delete>
 
 
 </mapper>

@@ -12,8 +12,10 @@ public class Offre {
 	private   Integer autoannee;
 	private   String cip;
 	private   Integer campus;
+	private Integer id_offre;
 
 	public   String getCip() { return cip;}
+	public 	  int getId() { return id_offre;}
 	public   String getNom() { return nom;}
 	public   String getPrenom() { return prenom;}
 	public   String getVille() { return ville;}
@@ -68,6 +70,8 @@ public class Offre {
 	public void setCampus(int campus){
 		this.campus = campus;
 	}
+
+	public void setId(int id) { this.id_offre = id;}
 
 	@Override
 	public String toString() {

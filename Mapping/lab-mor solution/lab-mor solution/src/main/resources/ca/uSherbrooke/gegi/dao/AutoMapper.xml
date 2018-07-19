@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ca.uSherbrooke.gegi.dao.AutoMapper" >
+
+
+    <select id="selectAuto" resultType="Auto">
+      SELECT cip, nom_car, annee_car, marque
+      from projets3.v_auto
+      where cip = #{cip}
+    </select>
+
+
+	<insert id="insertAuto" >
+		INSERT into projets3.automobiles(cip, nom_car, annee_car, marque)
+		values (#{cip},#{nom_car},#{annee_car},#{marque})
+	</insert>
+
+</mapper>

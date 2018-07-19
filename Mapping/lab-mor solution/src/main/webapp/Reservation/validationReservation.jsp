@@ -9,13 +9,16 @@
 --%>
 <%response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>Validation Reservation</title>
 </head>
 <body>
     <%
-        ReserverOffre.reserv(request.getUserPrincipal().toString(),);
+        int id_offre = Integer.valueOf(request.getParameter("id_offree"));
+        System.out.println(id_offre);
+        ReserverOffre.reserv(request.getUserPrincipal().toString(),id_offre);
     %>
     <H1>Votre reservation as été Enregistre avec succes!!</H1>
     <input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">

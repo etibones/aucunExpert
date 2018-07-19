@@ -49,9 +49,14 @@
             <td><%=listee.get(i).getNbplace()%></td>
             <td><%=listee.get(i).getAutonom()%></td>
             <td><%=listee.get(i).getAutoannee()%></td>
+            <% int id = listee.get(i).getId();
+            System.out.println(id);%>
             <td>
                 <form action =Reservation/validationReservation.jsp>
-                    <input type="submit" value="Reserver l'offre <%=String.valueOf(i)%>">
+                    <input type="hidden" name="id_offree" value=<%=id%>>
+                    <input type="submit" name = "idd" value="Reserver l'offre">
+
+
                 </form>
             </td>
             <% i++; %>
