@@ -11,11 +11,11 @@ import java.util.List;
 
 public class ReserverOffre {
 
-    public static void reserv(){
+    public static void reserv(String cip){
         Injector injector = Guice.createInjector(new Module());
         OffreMapper offreMapper = injector.getInstance(OffreMapper.class);
         List<Offre> offre = offreMapper.selectOffre();
-        offreMapper.ReserverOffre("boua2263",offre.get(0).getNbplace()- 1);/*va falloir faire une fonction getCip()*/
+        offreMapper.ReserverOffre(cip,offre.get(0).getNbplace()- 1);
 
     }
 

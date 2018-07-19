@@ -5,6 +5,7 @@
   Time: 18:32
   To change this template use File | Settings | File Templates.
 --%>
+<%response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
@@ -16,14 +17,6 @@
     <body>
         <form action="/offre">
             <input type="submit" value="Offres">
-        </form>
-
-        <form action="/auto">
-            <input type="submit" value="Mes autos">
-        </form>
-
-        <form action="/usager">
-            <input type="submit" value="Voir mes Privileges">
         </form>
 
         <form action="/monCompte">

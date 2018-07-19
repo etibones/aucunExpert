@@ -8,6 +8,7 @@
   Time: 21:03
   To change this template use File | Settings | File Templates.
 --%>
+<%response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -23,8 +24,8 @@
         <th>Ville</th>
         <th>Description</th>
         <th>Date de l'offre</th>
-        <th>Nombre de place</th>
         <th>Bagages</th>
+        <th>Nombre de place</th>
         <th>Modele auto</th>
         <th>Annee de l'auto</th>
         <th>Reservation</th>
@@ -50,7 +51,7 @@
             <td><%=listee.get(i).getAutoannee()%></td>
             <td>
                 <form action =Reservation/validationReservation.jsp>
-                    <input type="submit" value="Reserver l'offre">
+                    <input type="submit" value="Reserver l'offre <%=String.valueOf(i)%>">
                 </form>
             </td>
             <% i++; %>
@@ -60,7 +61,6 @@
     </tbody>
 </table>
 <br>
-<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenue'">
-<input type = "button" value="Ajouter une offre" onclick="window.location.href='Inserer/InsererOffre/ajoutOffre.jsp'">
+<input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
 <br></body>
 </html>

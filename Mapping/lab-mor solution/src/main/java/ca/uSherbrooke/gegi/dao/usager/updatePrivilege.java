@@ -9,11 +9,10 @@ import com.google.inject.Injector;
 public class updatePrivilege {
 
 
-    public static void ajout(Usager usager) {
-        int chauffeur = 2;
+    public static void ajout(Usager usager, String cip,int privilege) {
         Injector injector = Guice.createInjector(new Module());
         UsagerMapper adminMapper = injector.getInstance(UsagerMapper.class);
-        adminMapper.modifierPrivilege(usager.getCip(),chauffeur);
+        adminMapper.modifierPrivilege(cip,privilege);
 
     }
 

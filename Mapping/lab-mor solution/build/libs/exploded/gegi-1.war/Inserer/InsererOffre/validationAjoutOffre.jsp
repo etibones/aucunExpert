@@ -6,6 +6,7 @@
   Time: 12:33
   To change this template use File | Settings | File Templates.
 --%>
+<%response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -17,13 +18,12 @@
 
     String cip=request.getUserPrincipal().toString();
     String ville=request.getParameter("ville");
-    String campus=request.getParameter("campus");
+    Integer campus= Integer.valueOf(request.getParameter("campus"));
     String libelle=request.getParameter("libelle");
     String dateOffre=request.getParameter("dateOffre");
     Integer nbPlace= Integer.valueOf(request.getParameter("nbPlace"));
     String bagage=request.getParameter("bagage");
     String autoNom=request.getParameter("autoNom");
-    Integer autoAnnee= Integer.valueOf(request.getParameter("autoAnnee"));
 
 
 
@@ -34,8 +34,7 @@
     ajouterOffre.setNbplace(nbPlace);
     ajouterOffre.setBagage(bagage);
     ajouterOffre.setAutoNom(autoNom);
-    ajouterOffre.setAutoAnnee(autoAnnee);
-    //ajouterOffre.setCampus(campus);
+    ajouterOffre.setCampus(campus);
 
  ajoutOffre.ajout(ajouterOffre);
 

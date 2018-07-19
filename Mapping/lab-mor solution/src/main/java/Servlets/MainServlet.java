@@ -13,11 +13,6 @@ import java.io.IOException;
 @WebServlet(urlPatterns = "/Bienvenu", loadOnStartup = 1)
 public class MainServlet extends HttpServlet {
 
-    private String CIP;
-
-    public String getCIP() {
-        return CIP;
-    }
 
     public MainServlet() {
         System.err.println("Servlet initialized!");
@@ -29,7 +24,6 @@ public class MainServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        CIP = request.getUserPrincipal().toString();
         RequestDispatcher view = request.getRequestDispatcher("/Bienvenu.jsp");
         view.forward(request, response);
 
