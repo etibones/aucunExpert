@@ -38,8 +38,10 @@
         int i = 0;
         request.setAttribute("Taille", taille);
     %>
+    <tr>
+        <c:if test = "${Taille > 0}">
     <c:forEach var="iii" begin = "0" end = "${Taille-1}">
-        <tr>
+
             <td><%=listee.get(i).getNom()%></td>
             <td><%=listee.get(i).getPrenom()%></td>
             <td><%=listee.get(i).getVille()%></td>
@@ -60,9 +62,10 @@
                 </form>
             </td>
             <% i++; %>
-        </tr>
-    </c:forEach>
 
+    </c:forEach>
+        </c:if>
+            </tr>
     </tbody>
 </table>
 <br>
