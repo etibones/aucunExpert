@@ -38,10 +38,8 @@
         int i = 0;
         request.setAttribute("Taille", taille);
     %>
-    <tr>
-        <c:if test = "${Taille > 0}">
     <c:forEach var="iii" begin = "0" end = "${Taille-1}">
-
+        <tr>
             <td><%=listee.get(i).getNom()%></td>
             <td><%=listee.get(i).getPrenom()%></td>
             <td><%=listee.get(i).getVille()%></td>
@@ -51,21 +49,15 @@
             <td><%=listee.get(i).getNbplace()%></td>
             <td><%=listee.get(i).getAutonom()%></td>
             <td><%=listee.get(i).getAutoannee()%></td>
-            <% int id = listee.get(i).getId();
-            System.out.println(id);%>
             <td>
                 <form action =Reservation/validationReservation.jsp>
-                    <input type="hidden" name="id_offree" value=<%=id%>>
-                    <input type="submit" name = "idd" value="Reserver l'offre">
-
-
+                    <input type="submit" name = "idd" value="Reserver l'offre : <%=String.valueOf(i)%>">
                 </form>
             </td>
             <% i++; %>
-
+        </tr>
     </c:forEach>
-        </c:if>
-            </tr>
+
     </tbody>
 </table>
 <br>

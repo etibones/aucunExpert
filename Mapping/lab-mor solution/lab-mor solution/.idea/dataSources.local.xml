@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="s3info04@zeus.gel.usherbrooke.ca" uuid="53cb39ec-148d-4b99-8b58-66da0531d99d">
+    <data-source name="s3info04@zeus.gel.usherbrooke.ca" uuid="cc1a0d2d-1d8b-4079-b068-a1c7a4c3ba3b">
       <database-info product="PostgreSQL" version="9.6.9" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

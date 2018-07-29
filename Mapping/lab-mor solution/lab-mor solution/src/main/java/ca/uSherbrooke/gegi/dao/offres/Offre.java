@@ -3,7 +3,7 @@ package ca.uSherbrooke.gegi.dao.offres;
 public class Offre {
 	private  String nom;
 	private  String prenom;
-	private   String ville;
+	private   int ville;
 	private   String libelle;
 	private   String dateoffre;
 	private   Integer nbplace;
@@ -16,7 +16,7 @@ public class Offre {
 	public   String getCip() { return cip;}
 	public   String getNom() { return nom;}
 	public   String getPrenom() { return prenom;}
-	public   String getVille() { return ville;}
+	public   int getVille() { return ville;}
 	public   String getLibelle() { return libelle;}
 	public   String getDateoffre() { return dateoffre;}
 	public   Integer getNbplace() { return nbplace;}
@@ -57,7 +57,7 @@ public class Offre {
 		this.prenom = prenom;
 	}
 
-	public void setVille(String ville) {
+	public void setVille(int ville) {
 		this.ville = ville;
 	}
 

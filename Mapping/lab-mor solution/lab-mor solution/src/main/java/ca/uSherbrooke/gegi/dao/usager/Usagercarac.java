@@ -5,6 +5,7 @@ public class Usagercarac {
 
     public Usagercarac(String cip) {
         this.cip = cip;
+        System.out.println("hello0");
         temp = VueUsager.Vue(cip).toString().split(",");
     }
     public void setCip(String n_cip) {

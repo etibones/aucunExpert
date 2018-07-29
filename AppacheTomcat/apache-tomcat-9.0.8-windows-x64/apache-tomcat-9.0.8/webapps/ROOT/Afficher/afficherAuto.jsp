@@ -23,16 +23,13 @@
             int taille = carac.getTaille();
             request.setAttribute("Taille", taille);
         %>
-        <c:if test = "${Taille > 0}">
 <c:forEach var="iii" begin = "0" end = "${Taille-1}">
         <td><%=carac.getMarque(i)%></td>
         <td><%=carac.getModele(i)%></td>
         <td><%=carac.getAnnee(i)%></td>
         <% i++; %>
-
-    </c:forEach>
-        </c:if>
     </tr>
+    </c:forEach>
     </tbody>
 </table>
 <br>

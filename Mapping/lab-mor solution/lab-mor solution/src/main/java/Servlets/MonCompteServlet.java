@@ -29,7 +29,6 @@ public class MonCompteServlet extends HttpServlet {
             RequestDispatcher view = request.getRequestDispatcher("monCompte/monCompteChauffeur.jsp");
             view.forward(request, response);
         }
-
         else {
             RequestDispatcher view = request.getRequestDispatcher("monCompte/monComptePassager.jsp");
             view.forward(request, response);

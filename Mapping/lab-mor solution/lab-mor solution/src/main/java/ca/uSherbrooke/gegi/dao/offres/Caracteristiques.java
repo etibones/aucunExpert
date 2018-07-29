@@ -43,7 +43,7 @@ public class Caracteristiques {
         return temp.get(i).getPrenom();
     }
 
-    public  String getVille(int i){
+    public  int getVille(int i){
         return temp.get(i).getVille();
     }
 

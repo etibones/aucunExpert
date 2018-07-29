@@ -16,8 +16,8 @@
 </head>
 <body>
     <%
-        int id_offre = Integer.valueOf(request.getParameter("id_offree"));
-        System.out.println(id_offre);
+        String[] test = request.getParameter("idd").split(": ");
+        int id_offre = Integer.valueOf(test[1]);
         ReserverOffre.reserv(request.getUserPrincipal().toString(),id_offre);
     %>
     <H1>Votre reservation as été Enregistre avec succes!!</H1>
