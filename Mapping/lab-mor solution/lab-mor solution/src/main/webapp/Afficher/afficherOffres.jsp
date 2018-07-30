@@ -38,6 +38,7 @@
         int i = 0;
         request.setAttribute("Taille", taille);
     %>
+
     <c:forEach var="iii" begin = "0" end = "${Taille-1}">
         <tr>
             <td><%=listee.get(i).getNom()%></td>

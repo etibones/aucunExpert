@@ -53,7 +53,7 @@
     <input type="text" name="dateOffre">
     <br>
     Nombre de Places:<br>
-    <input type="number" name="nbPlace">
+    <input type="number" min="0" name="nbPlace">
     <br><br>
     <tr>
         <td>Description bagage:</td>
