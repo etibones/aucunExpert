@@ -13,6 +13,7 @@ public class Caracteristiques {
 
     public Caracteristiques() {
         temp = VueOffre.Vue();
+        System.out.println("sgag");
     }
 
     public int getTaille()

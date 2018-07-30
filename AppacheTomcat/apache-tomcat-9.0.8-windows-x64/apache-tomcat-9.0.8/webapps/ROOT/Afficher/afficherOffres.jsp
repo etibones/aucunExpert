@@ -1,7 +1,8 @@
 <%@ page import="ca.uSherbrooke.gegi.dao.offres.Caracteristiques" %>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <%@ page import="ca.uSherbrooke.gegi.dao.offres.Offre" %>
-<%@ page import="java.util.ArrayList" %><%--
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="ca.uSherbrooke.gegi.dao.Ville.VueVille" %><%--
   Created by IntelliJ IDEA.
   User: Nadir
   Date: 2018-05-31
@@ -32,14 +33,20 @@
     </tr>
     </thead>
     <tbody>
-    <% Caracteristiques carac = new Caracteristiques();
+    <%
+        VueVille vuee = new VueVille();
+        Caracteristiques carac = new Caracteristiques();
+        System.out.println("hello2");
         int taille = carac.getTaille();
         ArrayList<Offre> listee = (ArrayList)carac.getListe();
         int i = 0;
         request.setAttribute("Taille", taille);
     %>
+    <tr>
+        <c:if test = "${Taille > 0}">
     <c:forEach var="iii" begin = "0" end = "${Taille-1}">
-        <tr>
+        <% if (listee.get(i).getNbplace() > 0)
+            { %>
             <td><%=listee.get(i).getNom()%></td>
             <td><%=listee.get(i).getPrenom()%></td>
             <td><%=listee.get(i).getVille()%></td>
@@ -49,14 +56,22 @@
             <td><%=listee.get(i).getNbplace()%></td>
             <td><%=listee.get(i).getAutonom()%></td>
             <td><%=listee.get(i).getAutoannee()%></td>
+            <% int id = listee.get(i).getId();
+            %>
             <td>
                 <form action =Reservation/validationReservation.jsp>
-                    <input type="submit" name = "idd" value="Reserver l'offre : <%=String.valueOf(i)%>">
+                    <input type="hidden" name="id_offree" value=<%=id%>>
+                    <input type="submit" name = "idd" value="Reserver l'offre">
+
+
                 </form>
             </td>
+            <% } %>
+
             <% i++; %>
-        </tr>
+    </tr>
     </c:forEach>
+        </c:if>
 
     </tbody>
 </table>

@@ -7,7 +7,7 @@
 	
 	<select id="selectOffre" resultType="Offre">
 	    SELECT *
-	    from projets3.v_offres;
+	    from projets3.v_offres
 	</select>
 
     <insert id="insertOffre" useGeneratedKeys="false" parameterType="map" >
@@ -18,15 +18,12 @@
     </insert>
 
     <update id="ReserverOffre" useGeneratedKeys="false" parameterType="map">
+
         UPDATE projets3.offres set
             nombre_de_place = nombre_de_place-1
-        where id_offre = #{id_offre}
+        where id_offre = #{id_offre} AND nombre_de_place > 0
     </update>
 
-    <delete id="deleteOffre">
-        delete from projets3.offres
-        where nombre_de_place = 0
-    </delete>
 
     <delete id="deleteOffre2">
         delete from projets3.offres

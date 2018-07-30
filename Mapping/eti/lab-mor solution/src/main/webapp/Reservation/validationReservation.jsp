@@ -25,8 +25,6 @@
 <body>
     <%
         int id_offre = Integer.valueOf(request.getParameter("id_offree"));
-        System.out.println(id_offre);
-        ReserverOffre.reserv(request.getUserPrincipal().toString(),id_offre);
     %>
     <%
         Offre offre = ReserverOffre.selectOffre(id_offre);
@@ -45,7 +43,6 @@
             ReserverOffre.AjoutReservation(reserverOffre);
 
         ReservationAffichage reservation = new ReservationAffichage();
-        System.out.println((VueReservation.Vue(request.getUserPrincipal().toString())).get(0));
         reservation = (VueReservation.Vue(request.getUserPrincipal().toString())).get(0);
 
 
@@ -54,6 +51,7 @@
                 +request.getUserPrincipal()+"@usherbrooke.ca .";
         Email mail = new Email(email,message);
         mail.mail();
+        ReserverOffre.reserv(request.getUserPrincipal().toString(),id_offre);
 
     %>
     <H1>Votre reservation as été Enregistre avec succes!!</H1>

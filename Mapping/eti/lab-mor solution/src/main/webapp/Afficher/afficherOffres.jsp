@@ -36,16 +36,17 @@
     <%
         VueVille vuee = new VueVille();
         Caracteristiques carac = new Caracteristiques();
+        System.out.println("hello2");
         int taille = carac.getTaille();
         ArrayList<Offre> listee = (ArrayList)carac.getListe();
         int i = 0;
         request.setAttribute("Taille", taille);
-
     %>
     <tr>
         <c:if test = "${Taille > 0}">
     <c:forEach var="iii" begin = "0" end = "${Taille-1}">
-
+        <% if (listee.get(i).getNbplace() > 0)
+            { %>
             <td><%=listee.get(i).getNom()%></td>
             <td><%=listee.get(i).getPrenom()%></td>
             <td><%=listee.get(i).getVille()%></td>
@@ -65,6 +66,8 @@
 
                 </form>
             </td>
+            <% } %>
+
             <% i++; %>
     </tr>
     </c:forEach>

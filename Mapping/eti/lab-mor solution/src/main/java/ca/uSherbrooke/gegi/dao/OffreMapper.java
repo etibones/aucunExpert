@@ -20,7 +20,6 @@ public interface OffreMapper {
 
     void ReserverOffre (@Param("id_offre") int id_offre);
 
-    void deleteOffre();
 
     void deleteOffre2(@Param("cip") String cip, @Param("nom_car") String nom_car);
 

@@ -6,14 +6,19 @@
 
 
     <select id="selectVille" resultType="Ville">
-      SELECT *
-      from projets3.v_ville
+        SELECT *
+        from projets3.v_ville
     </select>
 
     <select id="selectVilleID" resultType="Integer">
-      SELECT id_ville
-      from projets3.v_ville
-      WHERE libelle_ville = #{libelle_ville}
+        SELECT id_ville
+        from projets3.v_ville
+        WHERE libelle_ville = #{libelle_ville}
     </select>
 
+    <select id="selectCity" resultType="String">
+        SELECT libelle_ville
+        from projets3.v_ville
+        WHERE id_ville = #{id_ville}
+    </select>
 </mapper>

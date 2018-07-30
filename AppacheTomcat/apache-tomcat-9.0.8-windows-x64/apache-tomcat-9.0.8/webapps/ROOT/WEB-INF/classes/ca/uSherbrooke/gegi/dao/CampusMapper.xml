@@ -6,14 +6,14 @@
 
 
     <select id="selectCampus" resultType="Campus">
-      SELECT *
-      from projets3.v_campus
+        SELECT *
+        from projets3.v_campus
     </select>
 
     <select id="getIDCamp" resultType="Integer">
-      SELECT id_campus
-      from projets3.v_campus
-      WHERE nom_campus = #{nom_campus}
+        SELECT id_campus
+        from projets3.v_campus
+        WHERE nom_campus = #{nom_campus}
     </select>
 
 </mapper>

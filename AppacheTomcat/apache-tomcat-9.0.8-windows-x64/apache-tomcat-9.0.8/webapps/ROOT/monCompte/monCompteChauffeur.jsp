@@ -14,9 +14,7 @@
 </head>
 <body>
     <%
-
         Usagercarac usager = new Usagercarac(request.getUserPrincipal().getName());
-
     %>
     <H1>Bonjour!! <%=request.getUserPrincipal()%> bienvenue dans vos paramètres de compte</H1>
     <FONT size="5pt">
@@ -39,7 +37,7 @@
             <input type="submit" value="Mes autos">
         </form>
         <input type = "button" value="Ajouter une offre" onclick="window.location.href='Inserer/InsererOffre/ajoutOffre.jsp'">
-        <input type = "button" value="Voir les places réservées" onclick="window.location.href=''">
+        <input type = "button" value="Voir les places réservées" onclick="window.location.href='Afficher/afficherReservation.jsp'">
         <br>
     <input type = "button" value="Retourner au menu principale" onclick="window.location.href='/Bienvenu'">
     </FONT>

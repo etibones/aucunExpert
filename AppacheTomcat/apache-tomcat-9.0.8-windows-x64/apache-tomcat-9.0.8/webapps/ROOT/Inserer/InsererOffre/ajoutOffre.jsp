@@ -5,7 +5,10 @@
 <%@ page import="ca.uSherbrooke.gegi.dao.Ville.CaracVille" %>
 <%@ page import="ca.uSherbrooke.gegi.dao.Ville.Ville" %>
 <%@ page import="ca.uSherbrooke.gegi.dao.Campus.CaracCampus" %>
-<%@ page import="ca.uSherbrooke.gegi.dao.Campus.Campus" %><%--
+<%@ page import="ca.uSherbrooke.gegi.dao.Campus.Campus" %>
+<%@ page import="java.sql.Timestamp" %>
+
+<%--
   Created by IntelliJ IDEA.
   User: Nadir
   Date: 2018-06-14
@@ -47,13 +50,10 @@
     </tr>
     <br><br>
     Description:<br>
-    <input type="text" name="libelle">
-    <br>
-    Date de l'offre<br>
-    <input type="text" name="dateOffre">
+    <input type="text" maxlength="200" name="libelle">
     <br>
     Nombre de Places:<br>
-    <input type="number" min="0" name="nbPlace">
+    <input type="number" min="0" max="20" name="nbPlace">
     <br><br>
     <tr>
         <td>Description bagage:</td>
@@ -79,6 +79,21 @@
     </tr>
 
     <br><br>
+
+    <% Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        String noww =timestamp.toString();
+        String[] nowDate = noww.split(" ");
+        String[] now1 = nowDate[1].split(":");
+        String now = nowDate[0] + "T" + now1[0] + ":" + now1[1];
+    %>
+        <div>
+            <label for="time">Date/heure: </label>
+            <input type="datetime-local" id="time"
+                   name="time" value=<%=now%>
+                   min=<%=now%> max="2019-01-01T00:00" />
+        </div>
+
+
 
 
     <input type="submit" formaction="validationAjoutOffre.jsp" value="Valider">

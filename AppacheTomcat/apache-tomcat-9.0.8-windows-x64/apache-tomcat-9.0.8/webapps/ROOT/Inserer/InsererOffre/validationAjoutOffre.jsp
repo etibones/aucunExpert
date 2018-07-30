@@ -27,13 +27,13 @@
     int campus = vuecampus.getIDCampus(camp);
     int ville = vueville.getIDVille(nomVille);
     String libelle=request.getParameter("libelle");
-    String dateOffre=request.getParameter("dateOffre");
+    String dateOffre=String.valueOf(request.getParameter("time"));
     Integer nbPlace= Integer.valueOf(request.getParameter("nbPlace"));
     String bagage=request.getParameter("bagage");
     String autoNom=request.getParameter("autoNom");
 
     ajouterOffre.setCip(cip);
-    ajouterOffre.setVille(ville);
+    ajouterOffre.setIDVille(ville);
     ajouterOffre.setLibelle(libelle);
     ajouterOffre.setDateoffre(dateOffre);
     ajouterOffre.setNbplace(nbPlace);

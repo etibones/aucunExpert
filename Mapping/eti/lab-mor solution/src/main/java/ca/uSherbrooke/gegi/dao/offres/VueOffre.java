@@ -14,11 +14,7 @@ public class VueOffre {
     public static List<Offre> Vue() {
         Injector injector = Guice.createInjector(new Module());
         OffreMapper offreMapper = injector.getInstance(OffreMapper.class);
-        offreMapper.deleteOffre();
-        System.out.println("hello");
         ArrayList<Offre> offres = (ArrayList)offreMapper.selectOffre();
-        System.out.println("hello1");
-        System.out.println(offres.toString());
         return offres;
     }
 
