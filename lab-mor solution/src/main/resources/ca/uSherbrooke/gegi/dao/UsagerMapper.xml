@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ca.uSherbrooke.gegi.dao.UsagerMapper" >
+
+
+    <select id="selectUsager" resultType="Usager">
+      SELECT prenom,couriel,privilege, nom, cip
+      from projets3.v_user
+      where cip = #{cip}
+    </select>
+
+    <select id="selectPrivilege" resultType="Privilege">
+      SELECT id_privilege
+      from projets3.v_privilege
+      where cip = #{cip}
+    </select>
+
+    <update id="modifierPrivilege" useGeneratedKeys="false" parameterType="map">
+        UPDATE projets3.usagers set
+            id_privilege = #{newPrivilege}
+        where cip = #{cip};
+    </update>
+
+
+</mapper>

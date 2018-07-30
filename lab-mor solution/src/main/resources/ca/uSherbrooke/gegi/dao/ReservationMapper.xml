@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ca.uSherbrooke.gegi.dao.ReservationMapper" >
+
+    <insert id="insertReservation" useGeneratedKeys="false" parameterType="map">
+        INSERT into projets3.reserver(cip,off_cip,nom_car, id_ville,id_campus,id_offre,date_reservation, confirmation)
+        values (#{cip},#{off_cip},#{nom_car},#{id_ville}
+            ,#{id_campus},#{id_offre},#{date_reservation},#{confirmation})
+
+    </insert>
+
+    <select id="selectVille" resultType= "Integer">
+        SELECT id_ville
+        from projets3.ville
+        where libelle_ville = #{id_ville}
+    </select>
+    <select id="selectOffre" resultType= "Offre">
+        SELECT */*nom, prenom, ville, libelle ,dateoffre, nbplace, bagage, autonom , autoannee*/
+        from projets3.offres
+        where id_offre = #{id_offre}
+    </select>
+
+    <select id="selectReservations" resultType= "ReservationAffichage">
+        SELECT */*nom, prenom, ville, libelle ,dateoffre, nbplace, bagage, autonom , autoannee*/
+        from projets3.v_reserv
+        where cip = #{cip}
+    </select>
+
+</mapper>

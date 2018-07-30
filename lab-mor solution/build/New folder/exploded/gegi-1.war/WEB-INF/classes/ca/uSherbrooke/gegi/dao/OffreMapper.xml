@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ca.uSherbrooke.gegi.dao.OffreMapper" >
+
+	
+	<select id="selectOffre" resultType="Offre">
+	    SELECT nom, prenom, ville,libelle, dateoffre, nbplace, bagage, autonom, autoannee
+	    from projets3.v_offres;
+	</select>
+
+    <insert id="insertOffre" useGeneratedKeys="false" parameterType="map" >
+        INSERT into projets3.offres (cip, id_ville,libelle_offre, dateoffre, nombre_de_place,
+                                     bagage, nom_car, id_campus,id_offre,datepresentement)
+        values (#{cip},#{id_ville},#{libelle_offre},#{dateoffre},
+                    #{nombre_de_place},#{bagage},#{nom_car},#{id_campus},#{id_offre},#{datepresentement})
+    </insert>
+
+    <update id="ReserverOffre" useGeneratedKeys="false" parameterType="map">
+        UPDATE projets3.offres set
+            nombre_de_place = #{nombre_de_place}
+        where cip = #{cip}
+    </update>
+
+
+</mapper>
