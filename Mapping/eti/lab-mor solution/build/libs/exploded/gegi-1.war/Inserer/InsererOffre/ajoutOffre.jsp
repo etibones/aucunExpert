@@ -50,10 +50,10 @@
     </tr>
     <br><br>
     Description:<br>
-    <input type="text" name="libelle">
+    <input type="text" maxlength="200" name="libelle">
     <br>
     Nombre de Places:<br>
-    <input type="number" min="0" name="nbPlace">
+    <input type="number" min="0" max="20" name="nbPlace">
     <br><br>
     <tr>
         <td>Description bagage:</td>
